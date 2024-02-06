@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_container"
+    android:background="@color/primary_color"
+    tools:context=".SettingsScreen.contactor_sticko.ContactUsActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/app_bar"
+                layout="@layout/app_bar_secondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:id="@+id/ll_edt_fields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/app_bar"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:autofillHints=""
+                    android:background="@drawable/edt_bg_without_stroke"
+                    android:hint="@string/contacter_name"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="50dp"
+                    android:paddingStart="26dp"
+                    android:textColor="@color/white"
+                    android:theme="@style/edit_text_style" />
+
+                <EditText
+                    android:id="@+id/edt_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:autofillHints=""
+                    android:background="@drawable/edt_bg_without_stroke"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="50dp"
+                    android:paddingStart="26dp"
+                    android:textColor="@color/white"
+                    android:theme="@style/edit_text_style" />
+
+                <EditText
+                    android:id="@+id/edt_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:autofillHints=""
+                    android:background="@drawable/edt_bg_without_stroke"
+                    android:hint="@string/contacter_phone"
+                    android:inputType="phone"
+                    android:minHeight="50dp"
+                    android:maxLength="11"
+                    android:paddingLeft="26dp"
+                    android:textColor="@color/white"
+                    android:theme="@style/edit_text_style" />
+
+                <EditText
+                    android:id="@+id/edt_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edt_bg_without_stroke"
+                    android:gravity="top"
+                    android:hint="@string/edt_message"
+                    android:inputType="textMultiLine"
+                    android:minHeight="150dp"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/white"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:theme="@style/edit_text_style" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/sticko_logo_bottom" />
+</RelativeLayout>

@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import androidx.viewpager2.widget.ViewPager2;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -70,7 +71,7 @@ public final class ActivityOnboardingScreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.layout_onboardingIndicators;
-      LinearLayout layoutOnboardingIndicators = rootView.findViewById(id);
+      LinearLayout layoutOnboardingIndicators = ViewBindings.findChildViewById(rootView, id);
       if (layoutOnboardingIndicators == null) {
         break missingId;
       }
@@ -78,13 +79,13 @@ public final class ActivityOnboardingScreenBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.onboarding_viewpager;
-      ViewPager2 onboardingViewpager = rootView.findViewById(id);
+      ViewPager2 onboardingViewpager = ViewBindings.findChildViewById(rootView, id);
       if (onboardingViewpager == null) {
         break missingId;
       }
 
       id = R.id.tv_passer;
-      TextView tvPasser = rootView.findViewById(id);
+      TextView tvPasser = ViewBindings.findChildViewById(rootView, id);
       if (tvPasser == null) {
         break missingId;
       }

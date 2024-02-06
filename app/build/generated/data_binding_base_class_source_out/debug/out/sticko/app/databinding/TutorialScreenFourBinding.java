@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -61,7 +62,7 @@ public final class TutorialScreenFourBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.rv_new_links;
-      RecyclerView rvNewLinks = rootView.findViewById(id);
+      RecyclerView rvNewLinks = ViewBindings.findChildViewById(rootView, id);
       if (rvNewLinks == null) {
         break missingId;
       }

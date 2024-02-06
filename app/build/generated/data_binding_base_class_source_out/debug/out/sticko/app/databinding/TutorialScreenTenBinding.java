@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -64,7 +65,7 @@ public final class TutorialScreenTenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_add;
-      ImageView btnAdd = rootView.findViewById(id);
+      ImageView btnAdd = ViewBindings.findChildViewById(rootView, id);
       if (btnAdd == null) {
         break missingId;
       }
@@ -72,7 +73,7 @@ public final class TutorialScreenTenBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.txt_heading;
-      TextView txtHeading = rootView.findViewById(id);
+      TextView txtHeading = ViewBindings.findChildViewById(rootView, id);
       if (txtHeading == null) {
         break missingId;
       }

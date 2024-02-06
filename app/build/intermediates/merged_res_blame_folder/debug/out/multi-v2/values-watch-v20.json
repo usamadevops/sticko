@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/osama.fahim/Documents/Sticko-Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/aee462275766ea11fd05a9119c668fe0/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/f5d94f33353d3debac5a2350e037f822/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

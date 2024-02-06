@@ -9,6 +9,7 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -59,7 +60,7 @@ public final class HomescreenLayoutBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.iv_profile;
-      ImageView ivProfile = rootView.findViewById(id);
+      ImageView ivProfile = ViewBindings.findChildViewById(rootView, id);
       if (ivProfile == null) {
         break missingId;
       }

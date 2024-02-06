@@ -12,6 +12,7 @@ import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -93,44 +94,44 @@ public final class FragmentContactUsBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.app_bar;
-      View appBar = rootView.findViewById(id);
+      View appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
         break missingId;
       }
       AppBarSecondaryBinding binding_appBar = AppBarSecondaryBinding.bind(appBar);
 
       id = R.id.edt_email;
-      EditText edtEmail = rootView.findViewById(id);
+      EditText edtEmail = ViewBindings.findChildViewById(rootView, id);
       if (edtEmail == null) {
         break missingId;
       }
 
       id = R.id.edt_message;
-      EditText edtMessage = rootView.findViewById(id);
+      EditText edtMessage = ViewBindings.findChildViewById(rootView, id);
       if (edtMessage == null) {
         break missingId;
       }
 
       id = R.id.edt_name;
-      EditText edtName = rootView.findViewById(id);
+      EditText edtName = ViewBindings.findChildViewById(rootView, id);
       if (edtName == null) {
         break missingId;
       }
 
       id = R.id.edt_phone_number;
-      EditText edtPhoneNumber = rootView.findViewById(id);
+      EditText edtPhoneNumber = ViewBindings.findChildViewById(rootView, id);
       if (edtPhoneNumber == null) {
         break missingId;
       }
 
       id = R.id.iv_logo;
-      ImageView ivLogo = rootView.findViewById(id);
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
         break missingId;
       }
 
       id = R.id.ll_edt_fields;
-      LinearLayout llEdtFields = rootView.findViewById(id);
+      LinearLayout llEdtFields = ViewBindings.findChildViewById(rootView, id);
       if (llEdtFields == null) {
         break missingId;
       }
@@ -138,7 +139,7 @@ public final class FragmentContactUsBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.scrollView;
-      ScrollView scrollView = rootView.findViewById(id);
+      ScrollView scrollView = ViewBindings.findChildViewById(rootView, id);
       if (scrollView == null) {
         break missingId;
       }

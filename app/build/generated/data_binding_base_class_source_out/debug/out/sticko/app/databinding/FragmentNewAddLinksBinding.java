@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -69,7 +70,7 @@ public final class FragmentNewAddLinksBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.app_bar;
-      View appBar = rootView.findViewById(id);
+      View appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
         break missingId;
       }
@@ -78,13 +79,13 @@ public final class FragmentNewAddLinksBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.rv_new_links;
-      RecyclerView rvNewLinks = rootView.findViewById(id);
+      RecyclerView rvNewLinks = ViewBindings.findChildViewById(rootView, id);
       if (rvNewLinks == null) {
         break missingId;
       }
 
       id = R.id.tv_heading;
-      TextView tvHeading = rootView.findViewById(id);
+      TextView tvHeading = ViewBindings.findChildViewById(rootView, id);
       if (tvHeading == null) {
         break missingId;
       }

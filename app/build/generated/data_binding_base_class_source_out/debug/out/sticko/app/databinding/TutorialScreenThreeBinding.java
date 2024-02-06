@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -78,7 +79,7 @@ public final class TutorialScreenThreeBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_activate_sticko;
-      AppCompatButton btnActivateSticko = rootView.findViewById(id);
+      AppCompatButton btnActivateSticko = ViewBindings.findChildViewById(rootView, id);
       if (btnActivateSticko == null) {
         break missingId;
       }
@@ -86,25 +87,25 @@ public final class TutorialScreenThreeBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.rl_activation_icon;
-      RelativeLayout rlActivationIcon = rootView.findViewById(id);
+      RelativeLayout rlActivationIcon = ViewBindings.findChildViewById(rootView, id);
       if (rlActivationIcon == null) {
         break missingId;
       }
 
       id = R.id.tv_profile;
-      TextView tvProfile = rootView.findViewById(id);
+      TextView tvProfile = ViewBindings.findChildViewById(rootView, id);
       if (tvProfile == null) {
         break missingId;
       }
 
       id = R.id.tv_top_50;
-      TextView tvTop50 = rootView.findViewById(id);
+      TextView tvTop50 = ViewBindings.findChildViewById(rootView, id);
       if (tvTop50 == null) {
         break missingId;
       }
 
       id = R.id.txt_screen_three;
-      TextView txtScreenThree = rootView.findViewById(id);
+      TextView txtScreenThree = ViewBindings.findChildViewById(rootView, id);
       if (txtScreenThree == null) {
         break missingId;
       }

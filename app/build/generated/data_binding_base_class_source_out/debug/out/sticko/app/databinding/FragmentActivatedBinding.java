@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -64,7 +65,7 @@ public final class FragmentActivatedBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.iv_logo;
-      ImageView ivLogo = rootView.findViewById(id);
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
         break missingId;
       }
@@ -72,7 +73,7 @@ public final class FragmentActivatedBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.tv_heading;
-      TextView tvHeading = rootView.findViewById(id);
+      TextView tvHeading = ViewBindings.findChildViewById(rootView, id);
       if (tvHeading == null) {
         break missingId;
       }

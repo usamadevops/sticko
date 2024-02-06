@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -65,20 +66,20 @@ public final class FragmentFollowingBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.app_bar;
-      View appBar = rootView.findViewById(id);
+      View appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
         break missingId;
       }
       AppBarSecondaryBinding binding_appBar = AppBarSecondaryBinding.bind(appBar);
 
       id = R.id.iv_following;
-      ImageView ivFollowing = rootView.findViewById(id);
+      ImageView ivFollowing = ViewBindings.findChildViewById(rootView, id);
       if (ivFollowing == null) {
         break missingId;
       }
 
       id = R.id.tv_description;
-      TextView tvDescription = rootView.findViewById(id);
+      TextView tvDescription = ViewBindings.findChildViewById(rootView, id);
       if (tvDescription == null) {
         break missingId;
       }

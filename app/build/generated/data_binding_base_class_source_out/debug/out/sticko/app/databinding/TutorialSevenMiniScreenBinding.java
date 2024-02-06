@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -74,31 +75,31 @@ public final class TutorialSevenMiniScreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.edt_social_name;
-      EditText edtSocialName = rootView.findViewById(id);
+      EditText edtSocialName = ViewBindings.findChildViewById(rootView, id);
       if (edtSocialName == null) {
         break missingId;
       }
 
       id = R.id.ib_delete;
-      ImageButton ibDelete = rootView.findViewById(id);
+      ImageButton ibDelete = ViewBindings.findChildViewById(rootView, id);
       if (ibDelete == null) {
         break missingId;
       }
 
       id = R.id.ib_eye;
-      ImageButton ibEye = rootView.findViewById(id);
+      ImageButton ibEye = ViewBindings.findChildViewById(rootView, id);
       if (ibEye == null) {
         break missingId;
       }
 
       id = R.id.ib_info;
-      ImageButton ibInfo = rootView.findViewById(id);
+      ImageButton ibInfo = ViewBindings.findChildViewById(rootView, id);
       if (ibInfo == null) {
         break missingId;
       }
 
       id = R.id.iv_profile;
-      ImageView ivProfile = rootView.findViewById(id);
+      ImageView ivProfile = ViewBindings.findChildViewById(rootView, id);
       if (ivProfile == null) {
         break missingId;
       }

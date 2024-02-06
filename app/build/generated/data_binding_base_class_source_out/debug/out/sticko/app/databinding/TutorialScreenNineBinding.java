@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -69,7 +70,7 @@ public final class TutorialScreenNineBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.app_bar;
-      View appBar = rootView.findViewById(id);
+      View appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
         break missingId;
       }
@@ -78,13 +79,13 @@ public final class TutorialScreenNineBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.rv_following;
-      RecyclerView rvFollowing = rootView.findViewById(id);
+      RecyclerView rvFollowing = ViewBindings.findChildViewById(rootView, id);
       if (rvFollowing == null) {
         break missingId;
       }
 
       id = R.id.txt_heading;
-      TextView txtHeading = rootView.findViewById(id);
+      TextView txtHeading = ViewBindings.findChildViewById(rootView, id);
       if (txtHeading == null) {
         break missingId;
       }

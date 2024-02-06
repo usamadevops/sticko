@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -69,25 +70,25 @@ public final class ErrorPopupBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.image_button;
-      ImageButton imageButton = rootView.findViewById(id);
+      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
       if (imageButton == null) {
         break missingId;
       }
 
       id = R.id.rl_1;
-      RelativeLayout rl1 = rootView.findViewById(id);
+      RelativeLayout rl1 = ViewBindings.findChildViewById(rootView, id);
       if (rl1 == null) {
         break missingId;
       }
 
       id = R.id.txt_details;
-      TextView txtDetails = rootView.findViewById(id);
+      TextView txtDetails = ViewBindings.findChildViewById(rootView, id);
       if (txtDetails == null) {
         break missingId;
       }
 
       id = R.id.txt_header1;
-      TextView txtHeader1 = rootView.findViewById(id);
+      TextView txtHeader1 = ViewBindings.findChildViewById(rootView, id);
       if (txtHeader1 == null) {
         break missingId;
       }

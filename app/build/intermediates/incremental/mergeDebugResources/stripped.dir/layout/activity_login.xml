@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    tools:context=".LoginScreen.LoginActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@null">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/sticko_logo" />
+
+            <TextView
+                android:id="@+id/tv_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_logo"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:text="@string/bienvenue"
+                android:theme="@style/heading_text_style" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_heading"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:background="@drawable/edt_background"
+                android:hint="@string/email_or_Nom_utilisateur"
+                android:minHeight="55dp"
+                android:maxHeight="47dp"
+                android:textColor="@color/white"
+                android:paddingEnd="10dp"
+                android:inputType="textEmailAddress"
+                android:theme="@style/edit_text_style"
+                tools:ignore="RtlSymmetry"
+                android:importantForAutofill="no" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_new_pass"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_email"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edt_background"
+                android:paddingEnd="10dp"
+                app:hintEnabled="false"
+                android:minHeight="50dp"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/icon_tin_color"
+                tools:ignore="RtlSymmetry">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edt_background"
+                    android:fontFamily="@font/d_din"
+                    android:inputType="textPassword"
+                    android:minHeight="50dp"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textColorHint="@color/hint_color"
+                    android:hint="@string/mot_de_passe"
+                    android:paddingStart="@dimen/edt_padding_start"
+                    android:textColor="@color/text_color" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <RelativeLayout
+                android:id="@+id/rl_forgot_sect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_new_pass">
+                <CheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:minHeight="14dp"
+                    android:minWidth="14dp"
+                    android:layout_marginTop="@dimen/margin_top_30"
+                    android:buttonTint="@color/button_bg_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="34dp"
+                    android:layout_toStartOf="@+id/forgot_password"
+                    android:layout_toEndOf="@+id/checkbox"
+                    android:fontFamily="@font/d_din"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/se_souvenir_de_moi"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/forgot_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="34dp"
+                    android:layout_marginEnd="10dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/secondary_color"
+                    android:text="@string/mot_de_passe_oublier"
+                    android:theme="@style/text_style" />
+            </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_forgot_sect"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:minHeight="46dp"
+                android:background="@drawable/button_background"
+                android:text="@string/se_connector"
+                android:theme="@style/button_style" />
+
+            <TextView
+                android:id="@+id/tv_not_acc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_signIn"
+                android:layout_marginTop="@dimen/margin_top_30"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text="@string/have_not_account"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_not_acc"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/margin_top_30"
+                android:layout_marginEnd="20dp"
+                android:minHeight="46dp"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:background="@drawable/button_background_follow"
+                android:text="@string/je_m_inscris"
+                android:textAllCaps="false"
+                android:textColor="@color/primary_color"
+                android:theme="@style/button_style"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

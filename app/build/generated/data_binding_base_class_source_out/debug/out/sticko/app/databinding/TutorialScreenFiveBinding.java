@@ -14,6 +14,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -123,38 +124,38 @@ public final class TutorialScreenFiveBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.app_bar;
-      View appBar = rootView.findViewById(id);
+      View appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
         break missingId;
       }
       AppBarMainBinding binding_appBar = AppBarMainBinding.bind(appBar);
 
       id = R.id.btn_following;
-      AppCompatButton btnFollowing = rootView.findViewById(id);
+      AppCompatButton btnFollowing = ViewBindings.findChildViewById(rootView, id);
       if (btnFollowing == null) {
         break missingId;
       }
 
       id = R.id.btn_QR_code;
-      ImageButton btnQRCode = rootView.findViewById(id);
+      ImageButton btnQRCode = ViewBindings.findChildViewById(rootView, id);
       if (btnQRCode == null) {
         break missingId;
       }
 
       id = R.id.btn_score;
-      AppCompatButton btnScore = rootView.findViewById(id);
+      AppCompatButton btnScore = ViewBindings.findChildViewById(rootView, id);
       if (btnScore == null) {
         break missingId;
       }
 
       id = R.id.iv_profile;
-      CircleImageView ivProfile = rootView.findViewById(id);
+      CircleImageView ivProfile = ViewBindings.findChildViewById(rootView, id);
       if (ivProfile == null) {
         break missingId;
       }
 
       id = R.id.ll_btn;
-      LinearLayout llBtn = rootView.findViewById(id);
+      LinearLayout llBtn = ViewBindings.findChildViewById(rootView, id);
       if (llBtn == null) {
         break missingId;
       }
@@ -162,49 +163,49 @@ public final class TutorialScreenFiveBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.profile_name;
-      RelativeLayout profileName = rootView.findViewById(id);
+      RelativeLayout profileName = ViewBindings.findChildViewById(rootView, id);
       if (profileName == null) {
         break missingId;
       }
 
       id = R.id.progress;
-      ProgressBar progress = rootView.findViewById(id);
+      ProgressBar progress = ViewBindings.findChildViewById(rootView, id);
       if (progress == null) {
         break missingId;
       }
 
       id = R.id.rl_fields;
-      RelativeLayout rlFields = rootView.findViewById(id);
+      RelativeLayout rlFields = ViewBindings.findChildViewById(rootView, id);
       if (rlFields == null) {
         break missingId;
       }
 
       id = R.id.rl_profile;
-      RelativeLayout rlProfile = rootView.findViewById(id);
+      RelativeLayout rlProfile = ViewBindings.findChildViewById(rootView, id);
       if (rlProfile == null) {
         break missingId;
       }
 
       id = R.id.rv_homeScreen;
-      RecyclerView rvHomeScreen = rootView.findViewById(id);
+      RecyclerView rvHomeScreen = ViewBindings.findChildViewById(rootView, id);
       if (rvHomeScreen == null) {
         break missingId;
       }
 
       id = R.id.tv_bio;
-      TextView tvBio = rootView.findViewById(id);
+      TextView tvBio = ViewBindings.findChildViewById(rootView, id);
       if (tvBio == null) {
         break missingId;
       }
 
       id = R.id.tv_name;
-      TextView tvName = rootView.findViewById(id);
+      TextView tvName = ViewBindings.findChildViewById(rootView, id);
       if (tvName == null) {
         break missingId;
       }
 
       id = R.id.txt_heading;
-      TextView txtHeading = rootView.findViewById(id);
+      TextView txtHeading = ViewBindings.findChildViewById(rootView, id);
       if (txtHeading == null) {
         break missingId;
       }

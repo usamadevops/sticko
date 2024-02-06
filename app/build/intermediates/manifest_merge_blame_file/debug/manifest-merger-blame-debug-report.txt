@@ -6,300 +6,270 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="30" />
-9-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+8-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.NFC" />
-11-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:6:5-62
-11-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:6:22-59
+11-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:6:5-62
+11-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:6:22-59
 12
 13    <uses-feature
-13-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:7:5-9:35
+13-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:7:5-9:35
 14        android:name="android.hardware.nfc"
-14-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:8:9-44
+14-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:8:9-44
 15        android:required="true" />
-15-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:9:9-32
+15-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:9:9-32
 16
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:11:5-79
-17-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:11:22-76
+17-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:11:5-79
+17-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:11:22-76
 18    <uses-permission android:name="android.permission.INTERNET" />
-18-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:12:5-67
-18-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:12:22-64
+18-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:12:5-67
+18-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:12:22-64
 19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-19-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:13:5-80
-19-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:13:22-77
+19-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:13:5-80
+19-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:13:22-77
 20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-20-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:14:5-81
-20-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:14:22-78
+20-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:14:5-81
+20-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:14:22-78
 21    <uses-permission android:name="android.permission.GET_TASKS" />
-21-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:15:5-68
-21-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:15:22-65
+21-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:15:5-68
+21-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:15:22-65
 22
 23    <application
-23-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:17:5-135:19
+23-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:17:5-116:19
 24        android:name="sticko.app.App"
-24-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:18:9-28
+24-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:18:9-28
 25        android:allowBackup="true"
-25-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:19:9-35
+25-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:19:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-26-->[androidx.core:core:1.3.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/50f1ca78fbc1677adba959cd11a28334/core-1.3.1/AndroidManifest.xml:24:18-86
+26-->[androidx.core:core:1.3.1] /Users/apple/.gradle/caches/transforms-3/8222060d32523dc8a56dda5eba3018a9/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
 27        android:debuggable="true"
 28        android:hardwareAccelerated="false"
-28-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:20:9-44
+28-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:20:9-44
 29        android:icon="@mipmap/ic_launcher_sticko_app_circle"
-29-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:21:9-61
+29-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:21:9-61
 30        android:label="@string/app_name"
-30-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:22:9-41
+30-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:22:9-41
 31        android:largeHeap="true"
-31-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:23:9-33
+31-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:23:9-33
 32        android:roundIcon="@mipmap/ic_launcher_sticko_app_circle_round"
-32-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:24:9-72
+32-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:24:9-72
 33        android:screenOrientation="portrait"
-33-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:25:9-45
+33-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:25:9-45
 34        android:supportsRtl="true"
-34-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:26:9-35
-35        android:theme="@style/Theme.StickoApp"
-35-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:27:9-47
-36        android:usesCleartextTraffic="true" >
-36-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:28:9-44
-37        <activity
-37-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:30:9-33:66
-38            android:name="sticko.app.SettingsScreen.TutorialScreens.TutorialsScreens"
-38-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:31:13-76
-39            android:label="@string/title_activity_tutorials_screens"
-39-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:32:13-69
-40            android:theme="@style/Theme.StickoApp.NoActionBar" />
-40-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:33:13-63
-41        <activity
-41-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:34:9-42:20
-42            android:name="sticko.app.SplashScreen"
-42-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:35:13-41
-43            android:screenOrientation="portrait" >
-43-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:36:13-49
-44            <intent-filter>
-44-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:37:13-41:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:38:17-69
-45-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:38:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:40:17-77
-47-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:40:27-74
-48            </intent-filter>
-49        </activity>
-50        <activity android:name="sticko.app.ActivationScreen.ActivationActivity" >
-50-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:43:9-53:20
-50-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:43:19-70
-51            <intent-filter>
-51-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:44:13-51:29
-52                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-52-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:45:17-77
-52-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:45:25-74
-53
-54                <category android:name="android.intent.category.DEFAULT" />
-54-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:46:17-76
-54-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:46:27-73
-55
-56                <data
-56-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:47:17-50:56
-57                    android:host="ext"
-57-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:48:21-39
-58                    android:pathPrefix="/peterjohnwelcome.com:nfcapp"
-58-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:49:21-70
-59                    android:scheme="vnd.android.nfc" />
-59-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:50:21-53
-60            </intent-filter>
-61        </activity>
-62        <activity
-62-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:54:9-58:66
-63            android:name="sticko.app.Connections.Connections"
-63-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:55:13-52
-64            android:label="@string/title_activity_connections"
-64-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:56:13-63
-65            android:screenOrientation="portrait"
-65-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:57:13-49
-66            android:theme="@style/Theme.StickoApp.NoActionBar" />
-66-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:58:13-63
-67        <activity
-67-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:59:9-63:66
-68            android:name="sticko.app.Connections.InfoMessageActivity"
-68-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:60:13-60
-69            android:label="@string/title_activity_connections"
-69-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:61:13-63
-70            android:screenOrientation="portrait"
-70-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:62:13-49
-71            android:theme="@style/Theme.StickoApp.NoActionBar" />
-71-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:63:13-63
-72        <activity
-72-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:64:9-68:66
-73            android:name="sticko.app.FollowsTapScreen.Follows"
-73-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:65:13-53
-74            android:label="@string/title_activity_follows"
-74-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:66:13-59
-75            android:screenOrientation="portrait"
-75-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:67:13-49
-76            android:theme="@style/Theme.StickoApp.NoActionBar" />
-76-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:68:13-63
-77        <activity
-77-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:69:9-71:52
-78            android:name="sticko.app.OnboardingScreen.OnboardingScreen"
-78-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:70:13-62
-79            android:screenOrientation="portrait" />
-79-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:71:13-49
-80        <activity
-80-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:72:9-102:20
-81            android:name="sticko.app.UserHomeScreen.UserHomeScreen"
-81-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:73:13-58
-82            android:screenOrientation="portrait" >
-82-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:74:13-49
-83            <meta-data
-83-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:75:13-77:72
-84                android:name="sticko.app.UserHomeScreen"
-84-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:76:17-57
-85                android:resource="@layout/activity_user_home_screen" />
-85-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:77:17-69
-86
-87            <intent-filter>
-87-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:79:13-90:29
-88                <action android:name="android.intent.action.VIEW" />
-88-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:80:17-69
-88-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:80:25-66
-89
-90                <category android:name="android.intent.category.DEFAULT" />
-90-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:46:17-76
-90-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:46:27-73
-91                <category android:name="android.intent.category.BROWSABLE" />
-91-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:83:17-78
-91-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:83:27-75
-92                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
-93                <data
-93-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:47:17-50:56
-94                    android:host="profile.sticko.fr"
-94-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:48:21-39
-95                    android:pathPrefix="/"
-95-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:49:21-70
-96                    android:scheme="http" />
-96-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:50:21-53
-97                <!-- note that the leading "/" is required for pathPrefix -->
-98            </intent-filter>
-99            <intent-filter>
-99-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:91:13-101:29
-100                <action android:name="android.intent.action.VIEW" />
-100-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:80:17-69
-100-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:80:25-66
-101
-102                <category android:name="android.intent.category.DEFAULT" />
-102-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:46:17-76
-102-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:46:27-73
-103                <category android:name="android.intent.category.BROWSABLE" />
-103-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:83:17-78
-103-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:83:27-75
-104                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
-105                <data
-105-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:47:17-50:56
-106                    android:host="profile.sticko.fr"
-106-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:48:21-39
-107                    android:scheme="https" />
-107-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:50:21-53
-108                <!-- note that the leading "/" is required for pathPrefix -->
-109            </intent-filter>
-110        </activity>
-111        <activity
-111-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:103:9-105:52
-112            android:name="sticko.app.HomeScreen.HomeScreenActivity"
-112-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:104:13-58
-113            android:screenOrientation="portrait" />
-113-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:105:13-49
-114        <activity
-114-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:106:9-109:67
-115            android:name="sticko.app.SettingsScreen.contactor_sticko.ContactUsActivity"
-115-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:107:13-78
-116            android:screenOrientation="portrait"
-116-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:108:13-49
-117            android:windowSoftInputMode="adjustPan|adjustResize" />
-117-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:109:13-65
+34-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:26:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.StickoApp"
+36-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:27:9-47
+37        android:usesCleartextTraffic="true" >
+37-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:28:9-44
+38        <activity
+38-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:30:9-33:66
+39            android:name="sticko.app.SettingsScreen.TutorialScreens.TutorialsScreens"
+39-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:31:13-76
+40            android:label="@string/title_activity_tutorials_screens"
+40-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:32:13-69
+41            android:theme="@style/Theme.StickoApp.NoActionBar" />
+41-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:33:13-63
+42        <activity
+42-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:34:9-42:20
+43            android:name="sticko.app.SplashScreen"
+43-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:35:13-41
+44            android:exported="true"
+44-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:37:13-36
+45            android:screenOrientation="portrait" >
+45-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:36:13-49
+46            <intent-filter>
+46-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:38:13-41:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:39:17-69
+47-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:39:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:40:17-77
+49-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:40:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:44:9-55:20
+53            android:name="sticko.app.ActivationScreen.ActivationActivity"
+53-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:45:13-64
+54            android:exported="true" >
+54-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:46:13-36
+55            <intent-filter>
+55-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:47:13-54:29
+56                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+56-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:48:17-77
+56-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:48:25-74
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:49:17-76
+58-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:49:27-73
+59
+60                <data
+60-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:50:17-53:56
+61                    android:host="ext"
+61-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:51:21-39
+62                    android:pathPrefix="/peterjohnwelcome.com:nfcapp"
+62-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:52:21-70
+63                    android:scheme="vnd.android.nfc" />
+63-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:53:21-53
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:58:9-83:20
+67            android:name="sticko.app.UserHomeScreen.UserHomeScreen"
+67-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:59:13-58
+68            android:exported="true"
+68-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:61:13-36
+69            android:screenOrientation="portrait" >
+69-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:60:13-49
+70            <meta-data
+70-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:62:13-64:72
+71                android:name="sticko.app.UserHomeScreen"
+71-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:63:17-57
+72                android:resource="@layout/activity_user_home_screen" />
+72-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:64:17-69
+73
+74            <intent-filter>
+74-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:66:13-74:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:67:17-69
+75-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:67:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:49:17-76
+77-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:49:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:69:17-78
+78-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:69:27-75
+79
+80                <data
+80-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:50:17-53:56
+81                    android:host="profile.sticko.fr"
+81-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:51:21-39
+82                    android:pathPrefix="/"
+82-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:52:21-70
+83                    android:scheme="http" />
+83-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:53:21-53
+84            </intent-filter>
+85            <intent-filter>
+85-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:75:13-82:29
+86                <action android:name="android.intent.action.VIEW" />
+86-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:67:17-69
+86-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:67:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:49:17-76
+88-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:49:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:69:17-78
+89-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:69:27-75
+90
+91                <data
+91-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:50:17-53:56
+92                    android:host="profile.sticko.fr"
+92-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:51:21-39
+93                    android:scheme="https" />
+93-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:53:21-53
+94            </intent-filter>
+95        </activity>
+96        <activity
+96-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:84:9-86:52
+97            android:name="sticko.app.HomeScreen.HomeScreenActivity"
+97-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:85:13-58
+98            android:screenOrientation="portrait" />
+98-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:86:13-49
+99        <activity
+99-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:87:9-90:67
+100            android:name="sticko.app.SettingsScreen.contactor_sticko.ContactUsActivity"
+100-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:88:13-78
+101            android:screenOrientation="portrait"
+101-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:89:13-49
+102            android:windowSoftInputMode="adjustPan|adjustResize" />
+102-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:90:13-65
+103        <activity
+103-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:91:9-93:52
+104            android:name="sticko.app.VerificationsScreen.VerificationActivity"
+104-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:92:13-69
+105            android:screenOrientation="portrait" />
+105-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:93:13-49
+106        <activity
+106-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:94:9-96:52
+107            android:name="sticko.app.UpdatePassword.UpdatePasswordActivity"
+107-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:95:13-66
+108            android:screenOrientation="portrait" />
+108-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:96:13-49
+109        <activity
+109-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:97:9-99:52
+110            android:name="sticko.app.ForgotPassword.ForgotPasswordActivity"
+110-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:98:13-66
+111            android:screenOrientation="portrait" />
+111-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:99:13-49
+112        <activity
+112-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:100:9-102:52
+113            android:name="sticko.app.Registrations.RegistrationActivity"
+113-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:101:13-63
+114            android:screenOrientation="portrait" />
+114-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:102:13-49
+115        <activity
+115-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:103:9-105:52
+116            android:name="sticko.app.LoginScreen.LoginActivity"
+116-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:104:13-54
+117            android:screenOrientation="portrait" />
+117-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:105:13-49
 118        <activity
-118-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:110:9-112:52
-119            android:name="sticko.app.VerificationsScreen.VerificationActivity"
-119-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:111:13-69
+118-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:106:9-108:52
+119            android:name="sticko.app.MainActivity"
+119-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:107:13-41
 120            android:screenOrientation="portrait" />
-120-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:112:13-49
+120-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:108:13-49
 121        <activity
-121-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:113:9-115:52
-122            android:name="sticko.app.UpdatePassword.UpdatePasswordActivity"
-122-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:114:13-66
+121-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:109:9-111:52
+122            android:name="sticko.app.Connections.AddLinksActivity"
+122-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:110:13-57
 123            android:screenOrientation="portrait" />
-123-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:115:13-49
+123-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:111:13-49
 124        <activity
-124-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:116:9-118:52
-125            android:name="sticko.app.ForgotPassword.ForgotPasswordActivity"
-125-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:117:13-66
-126            android:screenOrientation="portrait" />
-126-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:118:13-49
+124-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:112:9-114:59
+125            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+125-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:113:13-76
+126            android:theme="@style/Base.Theme.AppCompat" />
+126-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:114:13-56
 127        <activity
-127-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:119:9-121:52
-128            android:name="sticko.app.Registrations.RegistrationActivity"
-128-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:120:13-63
-129            android:screenOrientation="portrait" />
-129-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:121:13-49
-130        <activity
-130-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:122:9-124:52
-131            android:name="sticko.app.LoginScreen.LoginActivity"
-131-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:123:13-54
-132            android:screenOrientation="portrait" />
-132-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:124:13-49
-133        <activity
-133-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:125:9-127:52
-134            android:name="sticko.app.MainActivity"
-134-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:126:13-41
-135            android:screenOrientation="portrait" />
-135-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:127:13-49
-136        <activity
-136-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:128:9-130:52
-137            android:name="sticko.app.Connections.AddLinksActivity"
-137-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:129:13-57
-138            android:screenOrientation="portrait" />
-138-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:130:13-49
-139        <activity
-139-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:131:9-133:59
-140            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-140-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:132:13-76
-141            android:theme="@style/Base.Theme.AppCompat" />
-141-->/Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:133:13-56
-142        <activity
-142-->[com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:27:9-29:72
-143            android:name="com.karumi.dexter.DexterActivity"
-143-->[com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:28:13-60
-144            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-144-->[com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:29:13-69
+127-->[com.karumi:dexter:6.2.2] /Users/apple/.gradle/caches/transforms-3/5a9a3781ae82bd24af8bde15ead25b7c/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:27:9-29:72
+128            android:name="com.karumi.dexter.DexterActivity"
+128-->[com.karumi:dexter:6.2.2] /Users/apple/.gradle/caches/transforms-3/5a9a3781ae82bd24af8bde15ead25b7c/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:28:13-60
+129            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+129-->[com.karumi:dexter:6.2.2] /Users/apple/.gradle/caches/transforms-3/5a9a3781ae82bd24af8bde15ead25b7c/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:29:13-69
+130
+131        <provider
+131-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/248a59036f1053390b161a059c0aa382/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+132            android:name="com.squareup.picasso.PicassoProvider"
+132-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/248a59036f1053390b161a059c0aa382/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+133            android:authorities="sticko.app.com.squareup.picasso"
+133-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/248a59036f1053390b161a059c0aa382/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+134            android:exported="false" />
+134-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/248a59036f1053390b161a059c0aa382/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+135        <provider
+135-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:18:9-26:20
+136            android:name="com.iceteck.silicompressorr.provider.GenericFileProvider"
+136-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:19:13-84
+137            android:authorities="sticko.app.iceteck.silicompressor.provider"
+137-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:20:13-83
+138            android:exported="false"
+138-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:21:13-37
+139            android:grantUriPermissions="true" >
+139-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:22:13-47
+140            <meta-data
+140-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:23:13-25:58
+141                android:name="android.support.FILE_PROVIDER_PATHS"
+141-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:24:17-67
+142                android:resource="@xml/provider_paths" />
+142-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:25:17-55
+143        </provider>
+144    </application>
 145
-146        <provider
-146-->[com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-147            android:name="com.squareup.picasso.PicassoProvider"
-147-->[com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-148            android:authorities="sticko.app.com.squareup.picasso"
-148-->[com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-149            android:exported="false" />
-149-->[com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-150        <provider
-150-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:18:9-26:20
-151            android:name="com.iceteck.silicompressorr.provider.GenericFileProvider"
-151-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:19:13-84
-152            android:authorities="sticko.app.iceteck.silicompressor.provider"
-152-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:20:13-83
-153            android:exported="false"
-153-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:21:13-37
-154            android:grantUriPermissions="true" >
-154-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:22:13-47
-155            <meta-data
-155-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:23:13-25:58
-156                android:name="android.support.FILE_PROVIDER_PATHS"
-156-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:24:17-67
-157                android:resource="@xml/provider_paths" />
-157-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:25:17-55
-158        </provider>
-159    </application>
-160
-161</manifest>
+146</manifest>

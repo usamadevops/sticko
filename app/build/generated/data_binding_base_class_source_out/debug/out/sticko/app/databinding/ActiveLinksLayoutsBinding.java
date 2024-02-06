@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -61,7 +62,7 @@ public final class ActiveLinksLayoutsBinding implements ViewBinding {
       RelativeLayout rlConnectionsUser = (RelativeLayout) rootView;
 
       id = R.id.rv_active_links;
-      RecyclerView rvActiveLinks = rootView.findViewById(id);
+      RecyclerView rvActiveLinks = ViewBindings.findChildViewById(rootView, id);
       if (rvActiveLinks == null) {
         break missingId;
       }

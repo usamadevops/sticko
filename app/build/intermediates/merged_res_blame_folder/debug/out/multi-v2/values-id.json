@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/osama.fahim/Documents/Sticko-Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "outputFile": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
             "map": [
                 {
-                    "source": "/Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/96a962b50eebc4d9b9bc03bc53979b6b/jetified-android-image-cropper-2.8.0/res/values-id/values-id.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/7210b16e8a971e144ef459816140cb6e/transformed/jetified-android-image-cropper-2.8.0/res/values-id/values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

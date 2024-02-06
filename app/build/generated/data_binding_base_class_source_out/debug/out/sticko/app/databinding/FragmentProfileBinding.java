@@ -12,6 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -162,110 +163,110 @@ public final class FragmentProfileBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.app_bar;
-      View appBar = rootView.findViewById(id);
+      View appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
         break missingId;
       }
       AppBarSecondaryBinding binding_appBar = AppBarSecondaryBinding.bind(appBar);
 
       id = R.id.color_black;
-      CircleImageView colorBlack = rootView.findViewById(id);
+      CircleImageView colorBlack = ViewBindings.findChildViewById(rootView, id);
       if (colorBlack == null) {
         break missingId;
       }
 
       id = R.id.color_blue;
-      CircleImageView colorBlue = rootView.findViewById(id);
+      CircleImageView colorBlue = ViewBindings.findChildViewById(rootView, id);
       if (colorBlue == null) {
         break missingId;
       }
 
       id = R.id.color_blue_violet;
-      CircleImageView colorBlueViolet = rootView.findViewById(id);
+      CircleImageView colorBlueViolet = ViewBindings.findChildViewById(rootView, id);
       if (colorBlueViolet == null) {
         break missingId;
       }
 
       id = R.id.color_dark_gray;
-      CircleImageView colorDarkGray = rootView.findViewById(id);
+      CircleImageView colorDarkGray = ViewBindings.findChildViewById(rootView, id);
       if (colorDarkGray == null) {
         break missingId;
       }
 
       id = R.id.color_light_green;
-      CircleImageView colorLightGreen = rootView.findViewById(id);
+      CircleImageView colorLightGreen = ViewBindings.findChildViewById(rootView, id);
       if (colorLightGreen == null) {
         break missingId;
       }
 
       id = R.id.color_main;
-      CircleImageView colorMain = rootView.findViewById(id);
+      CircleImageView colorMain = ViewBindings.findChildViewById(rootView, id);
       if (colorMain == null) {
         break missingId;
       }
 
       id = R.id.color_puruple;
-      CircleImageView colorPuruple = rootView.findViewById(id);
+      CircleImageView colorPuruple = ViewBindings.findChildViewById(rootView, id);
       if (colorPuruple == null) {
         break missingId;
       }
 
       id = R.id.color_turquolse;
-      CircleImageView colorTurquolse = rootView.findViewById(id);
+      CircleImageView colorTurquolse = ViewBindings.findChildViewById(rootView, id);
       if (colorTurquolse == null) {
         break missingId;
       }
 
       id = R.id.edt_address;
-      EditText edtAddress = rootView.findViewById(id);
+      EditText edtAddress = ViewBindings.findChildViewById(rootView, id);
       if (edtAddress == null) {
         break missingId;
       }
 
       id = R.id.edt_bio;
-      EditText edtBio = rootView.findViewById(id);
+      EditText edtBio = ViewBindings.findChildViewById(rootView, id);
       if (edtBio == null) {
         break missingId;
       }
 
       id = R.id.edt_dob;
-      EditText edtDob = rootView.findViewById(id);
+      EditText edtDob = ViewBindings.findChildViewById(rootView, id);
       if (edtDob == null) {
         break missingId;
       }
 
       id = R.id.edt_name;
-      EditText edtName = rootView.findViewById(id);
+      EditText edtName = ViewBindings.findChildViewById(rootView, id);
       if (edtName == null) {
         break missingId;
       }
 
       id = R.id.edt_phone_number;
-      EditText edtPhoneNumber = rootView.findViewById(id);
+      EditText edtPhoneNumber = ViewBindings.findChildViewById(rootView, id);
       if (edtPhoneNumber == null) {
         break missingId;
       }
 
       id = R.id.edt_username;
-      EditText edtUsername = rootView.findViewById(id);
+      EditText edtUsername = ViewBindings.findChildViewById(rootView, id);
       if (edtUsername == null) {
         break missingId;
       }
 
       id = R.id.iv_profile;
-      CircleImageView ivProfile = rootView.findViewById(id);
+      CircleImageView ivProfile = ViewBindings.findChildViewById(rootView, id);
       if (ivProfile == null) {
         break missingId;
       }
 
       id = R.id.ll_colors;
-      LinearLayout llColors = rootView.findViewById(id);
+      LinearLayout llColors = ViewBindings.findChildViewById(rootView, id);
       if (llColors == null) {
         break missingId;
       }
 
       id = R.id.ll_edt_fields;
-      LinearLayout llEdtFields = rootView.findViewById(id);
+      LinearLayout llEdtFields = ViewBindings.findChildViewById(rootView, id);
       if (llEdtFields == null) {
         break missingId;
       }
@@ -273,31 +274,31 @@ public final class FragmentProfileBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.progress;
-      ProgressBar progress = rootView.findViewById(id);
+      ProgressBar progress = ViewBindings.findChildViewById(rootView, id);
       if (progress == null) {
         break missingId;
       }
 
       id = R.id.rl_fields;
-      RelativeLayout rlFields = rootView.findViewById(id);
+      RelativeLayout rlFields = ViewBindings.findChildViewById(rootView, id);
       if (rlFields == null) {
         break missingId;
       }
 
       id = R.id.rl_profile;
-      RelativeLayout rlProfile = rootView.findViewById(id);
+      RelativeLayout rlProfile = ViewBindings.findChildViewById(rootView, id);
       if (rlProfile == null) {
         break missingId;
       }
 
       id = R.id.tv_change_profile;
-      TextView tvChangeProfile = rootView.findViewById(id);
+      TextView tvChangeProfile = ViewBindings.findChildViewById(rootView, id);
       if (tvChangeProfile == null) {
         break missingId;
       }
 
       id = R.id.tv_theme;
-      TextView tvTheme = rootView.findViewById(id);
+      TextView tvTheme = ViewBindings.findChildViewById(rootView, id);
       if (tvTheme == null) {
         break missingId;
       }

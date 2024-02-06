@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_container"
+    android:background="@color/primary_color"
+    tools:context=".ActivationScreen.ActivationActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar_secondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginHorizontal="45dp"
+            android:background="@drawable/activation_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="50dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:fontFamily="@font/d_din_condensed_bold"
+                    android:text="@string/heading_activate_sticko"
+                    android:textAllCaps="true"
+                    android:justificationMode="inter_word"
+                    android:textSize="25sp"
+                    android:theme="@style/text_style" />
+
+                <TextView
+                    android:id="@+id/tv_top_50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activation_instructions"
+                    android:textAllCaps="false"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_activate_sticko"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/button_background"
+                    android:minHeight="40dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="@string/activate_sticko"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginBottom="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_background_follow"
+            android:minHeight="36dp"
+            android:text="@string/un_sticko"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_color"/>
+
+    </RelativeLayout>
+</RelativeLayout>

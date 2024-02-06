@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -103,67 +104,67 @@ public final class ActivityVerificationBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_back;
-      ImageButton btnBack = rootView.findViewById(id);
+      ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
         break missingId;
       }
 
       id = R.id.btn_verify;
-      AppCompatButton btnVerify = rootView.findViewById(id);
+      AppCompatButton btnVerify = ViewBindings.findChildViewById(rootView, id);
       if (btnVerify == null) {
         break missingId;
       }
 
       id = R.id.code_1;
-      EditText code1 = rootView.findViewById(id);
+      EditText code1 = ViewBindings.findChildViewById(rootView, id);
       if (code1 == null) {
         break missingId;
       }
 
       id = R.id.code_2;
-      EditText code2 = rootView.findViewById(id);
+      EditText code2 = ViewBindings.findChildViewById(rootView, id);
       if (code2 == null) {
         break missingId;
       }
 
       id = R.id.code_3;
-      EditText code3 = rootView.findViewById(id);
+      EditText code3 = ViewBindings.findChildViewById(rootView, id);
       if (code3 == null) {
         break missingId;
       }
 
       id = R.id.code_4;
-      EditText code4 = rootView.findViewById(id);
+      EditText code4 = ViewBindings.findChildViewById(rootView, id);
       if (code4 == null) {
         break missingId;
       }
 
       id = R.id.code_5;
-      EditText code5 = rootView.findViewById(id);
+      EditText code5 = ViewBindings.findChildViewById(rootView, id);
       if (code5 == null) {
         break missingId;
       }
 
       id = R.id.iv_logo;
-      ImageView ivLogo = rootView.findViewById(id);
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
         break missingId;
       }
 
       id = R.id.rl_verification_code;
-      RelativeLayout rlVerificationCode = rootView.findViewById(id);
+      RelativeLayout rlVerificationCode = ViewBindings.findChildViewById(rootView, id);
       if (rlVerificationCode == null) {
         break missingId;
       }
 
       id = R.id.tv_description;
-      TextView tvDescription = rootView.findViewById(id);
+      TextView tvDescription = ViewBindings.findChildViewById(rootView, id);
       if (tvDescription == null) {
         break missingId;
       }
 
       id = R.id.tv_heading;
-      TextView tvHeading = rootView.findViewById(id);
+      TextView tvHeading = ViewBindings.findChildViewById(rootView, id);
       if (tvHeading == null) {
         break missingId;
       }

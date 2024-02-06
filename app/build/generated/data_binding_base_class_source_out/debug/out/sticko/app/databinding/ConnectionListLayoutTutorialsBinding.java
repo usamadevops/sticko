@@ -10,6 +10,7 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
@@ -76,31 +77,31 @@ public final class ConnectionListLayoutTutorialsBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.edt_social_name;
-      TextInputEditText edtSocialName = rootView.findViewById(id);
+      TextInputEditText edtSocialName = ViewBindings.findChildViewById(rootView, id);
       if (edtSocialName == null) {
         break missingId;
       }
 
       id = R.id.ib_delete;
-      ImageButton ibDelete = rootView.findViewById(id);
+      ImageButton ibDelete = ViewBindings.findChildViewById(rootView, id);
       if (ibDelete == null) {
         break missingId;
       }
 
       id = R.id.ib_info;
-      ImageButton ibInfo = rootView.findViewById(id);
+      ImageButton ibInfo = ViewBindings.findChildViewById(rootView, id);
       if (ibInfo == null) {
         break missingId;
       }
 
       id = R.id.iv_profile;
-      ImageView ivProfile = rootView.findViewById(id);
+      ImageView ivProfile = ViewBindings.findChildViewById(rootView, id);
       if (ivProfile == null) {
         break missingId;
       }
 
       id = R.id.layout_new_pass;
-      TextInputLayout layoutNewPass = rootView.findViewById(id);
+      TextInputLayout layoutNewPass = ViewBindings.findChildViewById(rootView, id);
       if (layoutNewPass == null) {
         break missingId;
       }

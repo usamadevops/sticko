@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -80,25 +81,25 @@ public final class FollowersLayoutBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.iv_icon_group;
-      ImageView ivIconGroup = rootView.findViewById(id);
+      ImageView ivIconGroup = ViewBindings.findChildViewById(rootView, id);
       if (ivIconGroup == null) {
         break missingId;
       }
 
       id = R.id.main_container;
-      RelativeLayout mainContainer = rootView.findViewById(id);
+      RelativeLayout mainContainer = ViewBindings.findChildViewById(rootView, id);
       if (mainContainer == null) {
         break missingId;
       }
 
       id = R.id.no_data_available;
-      TextView noDataAvailable = rootView.findViewById(id);
+      TextView noDataAvailable = ViewBindings.findChildViewById(rootView, id);
       if (noDataAvailable == null) {
         break missingId;
       }
 
       id = R.id.no_followers;
-      RelativeLayout noFollowers = rootView.findViewById(id);
+      RelativeLayout noFollowers = ViewBindings.findChildViewById(rootView, id);
       if (noFollowers == null) {
         break missingId;
       }
@@ -106,7 +107,7 @@ public final class FollowersLayoutBinding implements ViewBinding {
       SwipeRefreshLayout refreshLayout = (SwipeRefreshLayout) rootView;
 
       id = R.id.rv_followers;
-      RecyclerView rvFollowers = rootView.findViewById(id);
+      RecyclerView rvFollowers = ViewBindings.findChildViewById(rootView, id);
       if (rvFollowers == null) {
         break missingId;
       }

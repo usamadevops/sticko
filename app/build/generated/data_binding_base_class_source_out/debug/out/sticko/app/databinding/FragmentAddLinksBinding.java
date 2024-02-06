@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -79,20 +80,20 @@ public final class FragmentAddLinksBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.app_bar;
-      View appBar = rootView.findViewById(id);
+      View appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
         break missingId;
       }
       AppBarSecondaryBinding binding_appBar = AppBarSecondaryBinding.bind(appBar);
 
       id = R.id.edt_connection;
-      EditText edtConnection = rootView.findViewById(id);
+      EditText edtConnection = ViewBindings.findChildViewById(rootView, id);
       if (edtConnection == null) {
         break missingId;
       }
 
       id = R.id.iv_logo;
-      ImageView ivLogo = rootView.findViewById(id);
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
         break missingId;
       }
@@ -100,13 +101,13 @@ public final class FragmentAddLinksBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.tv_description;
-      TextView tvDescription = rootView.findViewById(id);
+      TextView tvDescription = ViewBindings.findChildViewById(rootView, id);
       if (tvDescription == null) {
         break missingId;
       }
 
       id = R.id.tv_heading;
-      TextView tvHeading = rootView.findViewById(id);
+      TextView tvHeading = ViewBindings.findChildViewById(rootView, id);
       if (tvHeading == null) {
         break missingId;
       }

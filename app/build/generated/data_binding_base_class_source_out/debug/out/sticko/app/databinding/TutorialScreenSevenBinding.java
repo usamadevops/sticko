@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -96,38 +97,38 @@ public final class TutorialScreenSevenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.app_bar;
-      View appBar = rootView.findViewById(id);
+      View appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
         break missingId;
       }
       AppBarSecondaryBinding binding_appBar = AppBarSecondaryBinding.bind(appBar);
 
       id = R.id.container;
-      RelativeLayout container = rootView.findViewById(id);
+      RelativeLayout container = ViewBindings.findChildViewById(rootView, id);
       if (container == null) {
         break missingId;
       }
 
       id = R.id.iv_logo;
-      ImageView ivLogo = rootView.findViewById(id);
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
         break missingId;
       }
 
       id = R.id.iv_logo2;
-      ImageView ivLogo2 = rootView.findViewById(id);
+      ImageView ivLogo2 = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo2 == null) {
         break missingId;
       }
 
       id = R.id.ll_connections;
-      LinearLayout llConnections = rootView.findViewById(id);
+      LinearLayout llConnections = ViewBindings.findChildViewById(rootView, id);
       if (llConnections == null) {
         break missingId;
       }
 
       id = R.id.ll_line;
-      LinearLayout llLine = rootView.findViewById(id);
+      LinearLayout llLine = ViewBindings.findChildViewById(rootView, id);
       if (llLine == null) {
         break missingId;
       }
@@ -135,19 +136,19 @@ public final class TutorialScreenSevenBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.tap_layout;
-      LinearLayout tapLayout = rootView.findViewById(id);
+      LinearLayout tapLayout = ViewBindings.findChildViewById(rootView, id);
       if (tapLayout == null) {
         break missingId;
       }
 
       id = R.id.tv_profile;
-      TextView tvProfile = rootView.findViewById(id);
+      TextView tvProfile = ViewBindings.findChildViewById(rootView, id);
       if (tvProfile == null) {
         break missingId;
       }
 
       id = R.id.tv_top_50;
-      TextView tvTop50 = rootView.findViewById(id);
+      TextView tvTop50 = ViewBindings.findChildViewById(rootView, id);
       if (tvTop50 == null) {
         break missingId;
       }

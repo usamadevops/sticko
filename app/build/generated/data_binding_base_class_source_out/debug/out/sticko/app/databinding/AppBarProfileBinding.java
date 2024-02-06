@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.google.android.material.appbar.AppBarLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -79,37 +80,37 @@ public final class AppBarProfileBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.app_bar;
-      AppBarLayout appBar = rootView.findViewById(id);
+      AppBarLayout appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
         break missingId;
       }
 
       id = R.id.app_bar_heading;
-      TextView appBarHeading = rootView.findViewById(id);
+      TextView appBarHeading = ViewBindings.findChildViewById(rootView, id);
       if (appBarHeading == null) {
         break missingId;
       }
 
       id = R.id.btn_add;
-      ImageButton btnAdd = rootView.findViewById(id);
+      ImageButton btnAdd = ViewBindings.findChildViewById(rootView, id);
       if (btnAdd == null) {
         break missingId;
       }
 
       id = R.id.btn_done;
-      ImageButton btnDone = rootView.findViewById(id);
+      ImageButton btnDone = ViewBindings.findChildViewById(rootView, id);
       if (btnDone == null) {
         break missingId;
       }
 
       id = R.id.btn_share;
-      ImageButton btnShare = rootView.findViewById(id);
+      ImageButton btnShare = ViewBindings.findChildViewById(rootView, id);
       if (btnShare == null) {
         break missingId;
       }
 
       id = R.id.toolbar_secondary;
-      Toolbar toolbarSecondary = rootView.findViewById(id);
+      Toolbar toolbarSecondary = ViewBindings.findChildViewById(rootView, id);
       if (toolbarSecondary == null) {
         break missingId;
       }

@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.NFC" />
 
@@ -32,6 +32,7 @@
         android:roundIcon="@mipmap/ic_launcher_sticko_app_circle_round"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.StickoApp"
         android:usesCleartextTraffic="true" >
         <activity
@@ -40,6 +41,7 @@
             android:theme="@style/Theme.StickoApp.NoActionBar" />
         <activity
             android:name="sticko.app.SplashScreen"
+            android:exported="true"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,7 +49,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="sticko.app.ActivationScreen.ActivationActivity" >
+        <activity
+            android:name="sticko.app.ActivationScreen.ActivationActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
@@ -60,25 +64,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="sticko.app.Connections.Connections"
-            android:label="@string/title_activity_connections"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.StickoApp.NoActionBar" />
-        <activity
-            android:name="sticko.app.Connections.InfoMessageActivity"
-            android:label="@string/title_activity_connections"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.StickoApp.NoActionBar" />
-        <activity
-            android:name="sticko.app.FollowsTapScreen.Follows"
-            android:label="@string/title_activity_follows"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.StickoApp.NoActionBar" />
-        <activity
-            android:name="sticko.app.OnboardingScreen.OnboardingScreen"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="sticko.app.UserHomeScreen.UserHomeScreen"
+            android:exported="true"
             android:screenOrientation="portrait" >
             <meta-data
                 android:name="sticko.app.UserHomeScreen"
@@ -89,23 +76,21 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+
                 <data
                     android:host="profile.sticko.fr"
                     android:pathPrefix="/"
                     android:scheme="http" />
-                <!-- note that the leading "/" is required for pathPrefix -->
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+
                 <data
                     android:host="profile.sticko.fr"
                     android:scheme="https" />
-                <!-- note that the leading "/" is required for pathPrefix -->
             </intent-filter>
         </activity>
         <activity

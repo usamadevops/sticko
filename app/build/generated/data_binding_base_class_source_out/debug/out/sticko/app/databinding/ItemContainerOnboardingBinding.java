@@ -9,6 +9,7 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -59,13 +60,13 @@ public final class ItemContainerOnboardingBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.image1;
-      RelativeLayout image1 = rootView.findViewById(id);
+      RelativeLayout image1 = ViewBindings.findChildViewById(rootView, id);
       if (image1 == null) {
         break missingId;
       }
 
       id = R.id.image_boarding;
-      ImageView imageBoarding = rootView.findViewById(id);
+      ImageView imageBoarding = ViewBindings.findChildViewById(rootView, id);
       if (imageBoarding == null) {
         break missingId;
       }

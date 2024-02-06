@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
@@ -124,61 +125,61 @@ public final class ActivityRegistrationBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_login;
-      AppCompatButton btnLogin = rootView.findViewById(id);
+      AppCompatButton btnLogin = ViewBindings.findChildViewById(rootView, id);
       if (btnLogin == null) {
         break missingId;
       }
 
       id = R.id.btn_registration;
-      AppCompatButton btnRegistration = rootView.findViewById(id);
+      AppCompatButton btnRegistration = ViewBindings.findChildViewById(rootView, id);
       if (btnRegistration == null) {
         break missingId;
       }
 
       id = R.id.checkbox;
-      CheckBox checkbox = rootView.findViewById(id);
+      CheckBox checkbox = ViewBindings.findChildViewById(rootView, id);
       if (checkbox == null) {
         break missingId;
       }
 
       id = R.id.edt_confirm_pass;
-      TextInputEditText edtConfirmPass = rootView.findViewById(id);
+      TextInputEditText edtConfirmPass = ViewBindings.findChildViewById(rootView, id);
       if (edtConfirmPass == null) {
         break missingId;
       }
 
       id = R.id.edt_email;
-      EditText edtEmail = rootView.findViewById(id);
+      EditText edtEmail = ViewBindings.findChildViewById(rootView, id);
       if (edtEmail == null) {
         break missingId;
       }
 
       id = R.id.edt_newPassword;
-      TextInputEditText edtNewPassword = rootView.findViewById(id);
+      TextInputEditText edtNewPassword = ViewBindings.findChildViewById(rootView, id);
       if (edtNewPassword == null) {
         break missingId;
       }
 
       id = R.id.edt_username;
-      EditText edtUsername = rootView.findViewById(id);
+      EditText edtUsername = ViewBindings.findChildViewById(rootView, id);
       if (edtUsername == null) {
         break missingId;
       }
 
       id = R.id.iv_logo;
-      ImageView ivLogo = rootView.findViewById(id);
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
         break missingId;
       }
 
       id = R.id.layout_confirm_pass;
-      TextInputLayout layoutConfirmPass = rootView.findViewById(id);
+      TextInputLayout layoutConfirmPass = ViewBindings.findChildViewById(rootView, id);
       if (layoutConfirmPass == null) {
         break missingId;
       }
 
       id = R.id.layout_new_pass;
-      TextInputLayout layoutNewPass = rootView.findViewById(id);
+      TextInputLayout layoutNewPass = ViewBindings.findChildViewById(rootView, id);
       if (layoutNewPass == null) {
         break missingId;
       }
@@ -186,25 +187,25 @@ public final class ActivityRegistrationBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.privacyPolicy;
-      TextView privacyPolicy = rootView.findViewById(id);
+      TextView privacyPolicy = ViewBindings.findChildViewById(rootView, id);
       if (privacyPolicy == null) {
         break missingId;
       }
 
       id = R.id.rl_forgot_sect;
-      RelativeLayout rlForgotSect = rootView.findViewById(id);
+      RelativeLayout rlForgotSect = ViewBindings.findChildViewById(rootView, id);
       if (rlForgotSect == null) {
         break missingId;
       }
 
       id = R.id.tv_have_acc;
-      TextView tvHaveAcc = rootView.findViewById(id);
+      TextView tvHaveAcc = ViewBindings.findChildViewById(rootView, id);
       if (tvHaveAcc == null) {
         break missingId;
       }
 
       id = R.id.tv_heading;
-      TextView tvHeading = rootView.findViewById(id);
+      TextView tvHeading = ViewBindings.findChildViewById(rootView, id);
       if (tvHeading == null) {
         break missingId;
       }

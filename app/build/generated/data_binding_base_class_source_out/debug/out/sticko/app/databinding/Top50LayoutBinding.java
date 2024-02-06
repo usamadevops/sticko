@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -79,37 +80,37 @@ public final class Top50LayoutBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_score;
-      AppCompatButton btnScore = rootView.findViewById(id);
+      AppCompatButton btnScore = ViewBindings.findChildViewById(rootView, id);
       if (btnScore == null) {
         break missingId;
       }
 
       id = R.id.ll_sticks_view;
-      LinearLayout llSticksView = rootView.findViewById(id);
+      LinearLayout llSticksView = ViewBindings.findChildViewById(rootView, id);
       if (llSticksView == null) {
         break missingId;
       }
 
       id = R.id.rl_item;
-      RelativeLayout rlItem = rootView.findViewById(id);
+      RelativeLayout rlItem = ViewBindings.findChildViewById(rootView, id);
       if (rlItem == null) {
         break missingId;
       }
 
       id = R.id.serial_no;
-      TextView serialNo = rootView.findViewById(id);
+      TextView serialNo = ViewBindings.findChildViewById(rootView, id);
       if (serialNo == null) {
         break missingId;
       }
 
       id = R.id.tv_user_name;
-      TextView tvUserName = rootView.findViewById(id);
+      TextView tvUserName = ViewBindings.findChildViewById(rootView, id);
       if (tvUserName == null) {
         break missingId;
       }
 
       id = R.id.user_dp;
-      CircleImageView userDp = rootView.findViewById(id);
+      CircleImageView userDp = ViewBindings.findChildViewById(rootView, id);
       if (userDp == null) {
         break missingId;
       }

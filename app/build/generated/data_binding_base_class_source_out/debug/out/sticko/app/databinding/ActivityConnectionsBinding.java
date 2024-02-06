@@ -8,6 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import androidx.viewpager.widget.ViewPager;
 import com.google.android.material.tabs.TabLayout;
 import java.lang.NullPointerException;
@@ -67,13 +68,13 @@ public final class ActivityConnectionsBinding implements ViewBinding {
       CoordinatorLayout mainContainer = (CoordinatorLayout) rootView;
 
       id = R.id.tabs;
-      TabLayout tabs = rootView.findViewById(id);
+      TabLayout tabs = ViewBindings.findChildViewById(rootView, id);
       if (tabs == null) {
         break missingId;
       }
 
       id = R.id.view_pager;
-      ViewPager viewPager = rootView.findViewById(id);
+      ViewPager viewPager = ViewBindings.findChildViewById(rootView, id);
       if (viewPager == null) {
         break missingId;
       }

@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -74,31 +75,31 @@ public final class FollowersTapLayoutBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_remove;
-      AppCompatButton btnRemove = rootView.findViewById(id);
+      AppCompatButton btnRemove = ViewBindings.findChildViewById(rootView, id);
       if (btnRemove == null) {
         break missingId;
       }
 
       id = R.id.rl_item;
-      RelativeLayout rlItem = rootView.findViewById(id);
+      RelativeLayout rlItem = ViewBindings.findChildViewById(rootView, id);
       if (rlItem == null) {
         break missingId;
       }
 
       id = R.id.tv_follow;
-      TextView tvFollow = rootView.findViewById(id);
+      TextView tvFollow = ViewBindings.findChildViewById(rootView, id);
       if (tvFollow == null) {
         break missingId;
       }
 
       id = R.id.tv_user_name;
-      TextView tvUserName = rootView.findViewById(id);
+      TextView tvUserName = ViewBindings.findChildViewById(rootView, id);
       if (tvUserName == null) {
         break missingId;
       }
 
       id = R.id.user_dp;
-      CircleImageView userDp = rootView.findViewById(id);
+      CircleImageView userDp = ViewBindings.findChildViewById(rootView, id);
       if (userDp == null) {
         break missingId;
       }

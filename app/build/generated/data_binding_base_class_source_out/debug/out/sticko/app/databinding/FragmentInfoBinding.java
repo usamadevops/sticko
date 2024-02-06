@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -78,19 +79,19 @@ public final class FragmentInfoBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_close;
-      ImageButton btnClose = rootView.findViewById(id);
+      ImageButton btnClose = ViewBindings.findChildViewById(rootView, id);
       if (btnClose == null) {
         break missingId;
       }
 
       id = R.id.iv_logo;
-      ImageView ivLogo = rootView.findViewById(id);
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
         break missingId;
       }
 
       id = R.id.iv_logo2;
-      ImageView ivLogo2 = rootView.findViewById(id);
+      ImageView ivLogo2 = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo2 == null) {
         break missingId;
       }
@@ -98,13 +99,13 @@ public final class FragmentInfoBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.tv_profile;
-      TextView tvProfile = rootView.findViewById(id);
+      TextView tvProfile = ViewBindings.findChildViewById(rootView, id);
       if (tvProfile == null) {
         break missingId;
       }
 
       id = R.id.tv_top_50;
-      TextView tvTop50 = rootView.findViewById(id);
+      TextView tvTop50 = ViewBindings.findChildViewById(rootView, id);
       if (tvTop50 == null) {
         break missingId;
       }

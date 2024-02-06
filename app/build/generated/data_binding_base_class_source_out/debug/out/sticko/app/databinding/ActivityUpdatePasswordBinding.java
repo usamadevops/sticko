@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
@@ -91,49 +92,49 @@ public final class ActivityUpdatePasswordBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_back;
-      ImageButton btnBack = rootView.findViewById(id);
+      ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
         break missingId;
       }
 
       id = R.id.btn_confirm;
-      AppCompatButton btnConfirm = rootView.findViewById(id);
+      AppCompatButton btnConfirm = ViewBindings.findChildViewById(rootView, id);
       if (btnConfirm == null) {
         break missingId;
       }
 
       id = R.id.edt_confirm_pas;
-      TextInputEditText edtConfirmPas = rootView.findViewById(id);
+      TextInputEditText edtConfirmPas = ViewBindings.findChildViewById(rootView, id);
       if (edtConfirmPas == null) {
         break missingId;
       }
 
       id = R.id.edt_newPassword;
-      TextInputEditText edtNewPassword = rootView.findViewById(id);
+      TextInputEditText edtNewPassword = ViewBindings.findChildViewById(rootView, id);
       if (edtNewPassword == null) {
         break missingId;
       }
 
       id = R.id.iv_logo;
-      ImageView ivLogo = rootView.findViewById(id);
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
         break missingId;
       }
 
       id = R.id.layout_confirm_pass;
-      TextInputLayout layoutConfirmPass = rootView.findViewById(id);
+      TextInputLayout layoutConfirmPass = ViewBindings.findChildViewById(rootView, id);
       if (layoutConfirmPass == null) {
         break missingId;
       }
 
       id = R.id.layout_new_pass;
-      TextInputLayout layoutNewPass = rootView.findViewById(id);
+      TextInputLayout layoutNewPass = ViewBindings.findChildViewById(rootView, id);
       if (layoutNewPass == null) {
         break missingId;
       }
 
       id = R.id.tv_heading;
-      TextView tvHeading = rootView.findViewById(id);
+      TextView tvHeading = ViewBindings.findChildViewById(rootView, id);
       if (tvHeading == null) {
         break missingId;
       }

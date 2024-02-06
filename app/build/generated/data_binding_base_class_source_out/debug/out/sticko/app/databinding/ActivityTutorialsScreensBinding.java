@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import androidx.viewpager.widget.ViewPager;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -75,7 +76,7 @@ public final class ActivityTutorialsScreensBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_passer;
-      TextView btnPasser = rootView.findViewById(id);
+      TextView btnPasser = ViewBindings.findChildViewById(rootView, id);
       if (btnPasser == null) {
         break missingId;
       }
@@ -83,19 +84,19 @@ public final class ActivityTutorialsScreensBinding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.view_pager;
-      ViewPager viewPager = rootView.findViewById(id);
+      ViewPager viewPager = ViewBindings.findChildViewById(rootView, id);
       if (viewPager == null) {
         break missingId;
       }
 
       id = R.id.viewPagerCountDots;
-      LinearLayout viewPagerCountDots = rootView.findViewById(id);
+      LinearLayout viewPagerCountDots = ViewBindings.findChildViewById(rootView, id);
       if (viewPagerCountDots == null) {
         break missingId;
       }
 
       id = R.id.viewPagerIndicator;
-      RelativeLayout viewPagerIndicator = rootView.findViewById(id);
+      RelativeLayout viewPagerIndicator = ViewBindings.findChildViewById(rootView, id);
       if (viewPagerIndicator == null) {
         break missingId;
       }

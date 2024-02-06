@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -81,37 +82,37 @@ public final class ActivityForgotPasswordBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btn_back;
-      ImageButton btnBack = rootView.findViewById(id);
+      ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
         break missingId;
       }
 
       id = R.id.btn_send_code;
-      AppCompatButton btnSendCode = rootView.findViewById(id);
+      AppCompatButton btnSendCode = ViewBindings.findChildViewById(rootView, id);
       if (btnSendCode == null) {
         break missingId;
       }
 
       id = R.id.edt_email;
-      EditText edtEmail = rootView.findViewById(id);
+      EditText edtEmail = ViewBindings.findChildViewById(rootView, id);
       if (edtEmail == null) {
         break missingId;
       }
 
       id = R.id.iv_logo;
-      ImageView ivLogo = rootView.findViewById(id);
+      ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
         break missingId;
       }
 
       id = R.id.tv_description;
-      TextView tvDescription = rootView.findViewById(id);
+      TextView tvDescription = ViewBindings.findChildViewById(rootView, id);
       if (tvDescription == null) {
         break missingId;
       }
 
       id = R.id.tv_heading;
-      TextView tvHeading = rootView.findViewById(id);
+      TextView tvHeading = ViewBindings.findChildViewById(rootView, id);
       if (tvHeading == null) {
         break missingId;
       }

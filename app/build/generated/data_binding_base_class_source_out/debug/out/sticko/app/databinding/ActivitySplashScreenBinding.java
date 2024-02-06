@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -55,7 +56,7 @@ public final class ActivitySplashScreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.logo_sticko;
-      ImageView logoSticko = rootView.findViewById(id);
+      ImageView logoSticko = ViewBindings.findChildViewById(rootView, id);
       if (logoSticko == null) {
         break missingId;
       }

@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -64,7 +65,7 @@ public final class FragmentTop50Binding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.app_bar;
-      View appBar = rootView.findViewById(id);
+      View appBar = ViewBindings.findChildViewById(rootView, id);
       if (appBar == null) {
         break missingId;
       }
@@ -73,7 +74,7 @@ public final class FragmentTop50Binding implements ViewBinding {
       RelativeLayout mainContainer = (RelativeLayout) rootView;
 
       id = R.id.rv_top_50;
-      RecyclerView rvTop50 = rootView.findViewById(id);
+      RecyclerView rvTop50 = ViewBindings.findChildViewById(rootView, id);
       if (rvTop50 == null) {
         break missingId;
       }
