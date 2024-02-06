@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    tools:context=".SettingsScreen.AccountFragment">
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_close_24" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_close"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="@dimen/margin_top_30"
+        android:layout_above="@+id/btn_deactivate_account"
+        android:scrollbarThumbVertical="@null">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+          >
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sticko_logo" />
+
+            <TextView
+                android:id="@+id/tv_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_logo"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/d_din_condensed_bold"
+                android:text="@string/profile"
+                android:textAllCaps="true"
+                android:textSize="22sp"
+                android:theme="@style/text_style" />
+            <TextView
+                android:id="@+id/tv_top_50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_profile"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/d_din_condensed_bold"
+                android:text="@string/top_50"
+                android:textAllCaps="true"
+                android:textSize="22sp"
+                android:theme="@style/text_style" />
+            <TextView
+                android:id="@+id/tv_activate_sticko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_top_50"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/d_din_condensed_bold"
+                android:text="@string/activate_sticko"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:theme="@style/text_style" />
+
+            <TextView
+                android:id="@+id/tv_tutorial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_activate_sticko"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/d_din_condensed_bold"
+                android:text="@string/tutorial"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:theme="@style/text_style" />
+
+            <TextView
+                android:id="@+id/tv_buy_a_sticko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_tutorial"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/d_din_condensed_bold"
+                android:text="@string/buy_a_sticko"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:theme="@style/text_style" />
+            <TextView
+                android:id="@+id/tv_contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_buy_a_sticko"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/d_din_condensed_bold"
+                android:text="@string/contacter_sticko"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:theme="@style/text_style" />
+            <TextView
+                android:id="@+id/tv_disconnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_contact_us"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/d_din_condensed_bold"
+                android:text="@string/disconnect"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:theme="@style/text_style"
+                android:layout_marginBottom="100dp"/>
+
+
+        </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_deactivate_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/button_background_follow"
+        android:text="@string/deactivate_account"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_color" />
+
+</RelativeLayout>

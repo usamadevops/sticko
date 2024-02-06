@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    android:clickable="true">
+    <RelativeLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_color"
+        android:clickable="true">
+
+        <RelativeLayout
+            android:id="@+id/no_followers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_top_30"
+            android:layout_marginEnd="@dimen/margin_top_30"
+            android:gravity="center_vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_icon_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/group_icon" />
+
+
+            <TextView
+                android:id="@+id/no_data_available"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_icon_group"
+                android:layout_marginStart="@dimen/margin_top_30"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Vous n’avez suivis aucun compte pour le moment"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_following"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

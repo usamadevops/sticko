@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="sticko.app"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="2"
+5    android:versionName="1.3" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -28,15 +28,13 @@
 18-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:12:5-67
 18-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:12:22-64
 19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-19-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:13:5-80
-19-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:13:22-77
-20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-20-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:14:5-81
-20-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:14:22-78
-21    <uses-permission android:name="android.permission.GET_TASKS" />
-21-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:15:5-68
-21-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:15:22-65
-22
+19-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:11:5-80
+19-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:11:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+20-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:12:5-81
+20-->[com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/apple/.gradle/caches/transforms-3/3255bc8ba7b85a4615578662fc45ce21/transformed/jetified-silicompressor-2.2.4/AndroidManifest.xml:12:22-78
+21    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+22    <!-- <uses-permission android:name="android.permission.GET_TASKS" /> -->
 23    <application
 23-->/Users/apple/Downloads/Sticko-Android-master/app/src/main/AndroidManifest.xml:17:5-116:19
 24        android:name="sticko.app.App"

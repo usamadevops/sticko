@@ -1,0 +1,778 @@
+[
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_top_50_.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_top_50_.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_screen6.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/screen6.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_following_tab_layout.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/following_tab_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-anydpi-v26_ic_launcher_sticko_app_circle.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_sticko_app_circle.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_screen6.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/screen6.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_screen7.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/screen7.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_following_layout.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/following_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_activation_background.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/activation_background.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_item_container_onboarding.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/item_container_onboarding.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_avatar2.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/avatar2.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_followers_layout.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/followers_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_trophy_icon_2.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/trophy_icon_2.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_cursor_color.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/cursor_color.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_screen7.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/screen7.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher_sticko_app_circle_round.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-hdpi/ic_launcher_sticko_app_circle_round.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_following_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/following_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_connections.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_connections.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_info.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_info.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_button_background.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/button_background.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_screen6.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/screen6.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher_sticko_app_circle_round.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-mdpi/ic_launcher_sticko_app_circle_round.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_avatar3.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/avatar3.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_add_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/add_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_screen7.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/screen7.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_screen9.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/screen9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/font_d_din_exp_italic.otf.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/font/d_din_exp_italic.otf"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorial_screen_four.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorial_screen_four.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorial_screen_six.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorial_screen_six.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_screen5.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/screen5.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher_sticko_app_circle.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-hdpi/ic_launcher_sticko_app_circle.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_screen4.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/screen4.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_logo_black.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_logo_black.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_update_password.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_update_password.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_app_bar_main.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_profile_pic.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/profile_pic.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_screen8.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/screen8.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_home_screen.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_home_screen.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_activation_background.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/activation_background.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_activation_background.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/activation_background.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_add_icon_2.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/add_icon_2.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_screen8.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/screen8.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorial_screen_nine.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorial_screen_nine.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_padlock.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_padlock.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_avatar4.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/avatar4.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_screen1.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/screen1.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_screen10.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/screen10.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_screen9.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/screen9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_screen10.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/screen10.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_screen5.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/screen5.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_screen7.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/screen7.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_activated_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/activated_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_avatar1.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/avatar1.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_trophy_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/trophy_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_profile_pic.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/profile_pic.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_edt_background_custom.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/edt_background_custom.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_profile_pic.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/profile_pic.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_back_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/back_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_avatar5.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/avatar5.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher_sticko_app_circle.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_sticko_app_circle.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_button_background_follwing.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/button_background_follwing.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_edt_bg_without_stroke.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/edt_bg_without_stroke.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_whatsapp_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/whatsapp_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher_sticko_app_circle_foreground.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-hdpi/ic_launcher_sticko_app_circle_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_screen3.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/screen3.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_activated.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_activated.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_account.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_account.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_remove.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_remove.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorial_screen_eight.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorial_screen_eight.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_profile_pic.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/profile_pic.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_screen3.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/screen3.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_avatar6.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/avatar6.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_email_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/email_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_youtube_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/youtube_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_loader.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/loader.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_tutorials_screens.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_tutorials_screens.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_button_background_disable.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/button_background_disable.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_screen4.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/screen4.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/font_d_din_condensed_bold.otf.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/font/d_din_condensed_bold.otf"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_connection_list_layout_tutorials.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/connection_list_layout_tutorials.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_group_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/group_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_screen2.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/screen2.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_main.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_eye_grey.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_eye_grey.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_screen3.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/screen3.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_deactivated_alert.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_deactivated_alert.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_screen8.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/screen8.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_screen8.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/screen8.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_profile_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/profile_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_screen1.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/screen1.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_tool_bar_profile_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/tool_bar_profile_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorails_screen_two.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorails_screen_two.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_screen2.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/screen2.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_loader.gif.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/loader.gif"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_homescreen_layout.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/homescreen_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_screen9.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/screen9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_screen8.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/screen8.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_q_r_code.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_q_r_code.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_activation_background.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/activation_background.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_screen2.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/screen2.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/font_d_din.otf.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/font/d_din.otf"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_followers_tap_layout.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/followers_tap_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_background_verfication.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/background_verfication.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_follows.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_follows.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_onboarding_indicator_inactive.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/onboarding_indicator_inactive.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_screen10.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/screen10.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorial_screen_ten.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorial_screen_ten.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_screen3.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/screen3.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_user_home_screen.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_user_home_screen.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_screen7.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/screen7.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_onboarding_indicator_active.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/onboarding_indicator_active.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher_sticko_app_circle_round.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_sticko_app_circle_round.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_activation.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_activation.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_facebook_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/facebook_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_active_links_layouts.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/active_links_layouts.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_qr_code_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/qr_code_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_new_links_layout.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/new_links_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_login.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher_sticko_app_circle_round.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_sticko_app_circle_round.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_new_add_links.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_new_add_links.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorial_seven_mini_screen.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorial_seven_mini_screen.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_screen2.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/screen2.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_edt_background.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/edt_background.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_activation_background.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/activation_background.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_sticko_logo.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/sticko_logo.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_screen6.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/screen6.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_screen1.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/screen1.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_app_bar_secondary.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/app_bar_secondary.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_screen1.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/screen1.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/font_d_din_condensed.otf.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/font/d_din_condensed.otf"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_verification.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_verification.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorial_screen_one.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorial_screen_one.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher_sticko_app_circle_round.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-xhdpi/ic_launcher_sticko_app_circle_round.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_screen9.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/screen9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher_sticko_app_circle.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-xhdpi/ic_launcher_sticko_app_circle.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-ldpi_profile_pic.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-ldpi/profile_pic.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_screen10.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/screen10.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_splash_screen.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_profile_pic.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/profile_pic.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_border_set.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/border_set.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_alert_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/alert_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_screen2.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/screen2.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_activation_background.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/activation_background.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_baseline_visibility_off_24.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_screen4.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/screen4.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_screen4.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/screen4.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_baseline_share_24.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_snapchat_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/snapchat_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_share_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/share_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_onboarding_screen.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_onboarding_screen.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/font_d_din_bold.otf.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/font/d_din_bold.otf"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_screen6.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/screen6.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher_sticko_app_circle.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-mdpi/ic_launcher_sticko_app_circle.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_active_links_tap_layout.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/active_links_tap_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_app_bar_profile.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/app_bar_profile.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorial_screen_seven.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorial_screen_seven.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorial_screen_three.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorial_screen_three.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_screen3.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/screen3.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_baseline_qr_code_2_24.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_baseline_qr_code_2_24.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_screen10.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/screen10.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_profile_background.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/profile_background.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_registration.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_registration.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_baseline_close_24.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_button_background_follow.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/button_background_follow.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_info_help.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_info_help.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_screen9.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/screen9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_ic_baseline_check_24.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_sticko_logo_bottom.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/sticko_logo_bottom.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_following.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_following.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_activity_forgot_password.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-ldpi_activation_background.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-ldpi/activation_background.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_contact__us_.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_contact__us_.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_verification_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/verification_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-hdpi_screen1.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-hdpi/screen1.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_tutorial_screen_five.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/tutorial_screen_five.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher_sticko_app_circle_foreground.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-xhdpi/ic_launcher_sticko_app_circle_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_add_q_r_wallet.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_add_q_r_wallet.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_profile.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher_sticko_app_circle_foreground.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_sticko_app_circle_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-mdpi_screen5.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-mdpi/screen5.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher_sticko_app_circle_foreground.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-mdpi/ic_launcher_sticko_app_circle_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher_sticko_app_circle_foreground.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_sticko_app_circle_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_top_50_layout.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/top_50_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_error_popup.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/error_popup.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/layout_fragment_add_links.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/layout/fragment_add_links.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher_sticko_app_circle.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_sticko_app_circle.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xhdpi_screen5.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xhdpi/screen5.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxhdpi_screen5.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxhdpi/screen5.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_tiktok_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/tiktok_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/mipmap-anydpi-v26_ic_launcher_sticko_app_circle_round.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_sticko_app_circle_round.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_insta_icon.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/insta_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable-xxxhdpi_screen4.png.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable-xxxhdpi/screen4.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/Sticko-Android-master/app/build/intermediates/merged_res/release/drawable_active_icons.xml.flat",
+        "source": "/Users/apple/Downloads/Sticko-Android-master/app/src/main/res/drawable/active_icons.xml"
+    }
+]
