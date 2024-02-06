@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email">Email</string>
+    <string name="se_souvenir_de_moi">Se souvenir de moi</string>
+    <string name="disconnect">DÉCONNEXION</string>
+    <string name="tutorial">TUTORIEL</string>
+    <string name="deactivate_account">Désactiver mon compte</string>
+    <string name="new_links">Nouveaux liens</string>
+    <string name="passer">passer</string>
+    <string name="have_not_account">Pas encore de compte?</string>
+    <string name="send_code">Envoyer le code</string>
+    <string name="change_photo">Change ta photo de profil</string>
+    <string name="username">Nom d’utilisateur</string>
+    <string name="bio">Bio</string>
+    <string name="theme">Thèmes</string>
+    <string name="add_new_link_des">Ajoutes les liens que tu veux partager sur ton profil</string>
+</resources>

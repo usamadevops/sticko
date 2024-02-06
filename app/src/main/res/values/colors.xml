@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#09122A</color>
+    <color name="button_bg_color">#FF8500</color>
+    <color name="black">#FF000000</color>
+    <color name="icon_color">#FF8500</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_color">#ECECEC</color>
+    <color name="hint_color">#A0B0C4</color>
+    <color name="icon_tin_color">#414D69</color>
+    <color name="edt_bg_color">#0B1738</color>
+    <color name="verification_bg_color">#1B284D</color>
+    <color name="secondary_color">#FF8500</color>
+    <color name="blue_violet">#b20090</color>
+    <color name="purple">#510084</color>
+    <color name="blue">#0084E2</color>
+    <color name="light_green">#96CB04</color>
+    <color name="turquolse">#04C3CB</color>
+    <color name="color_border_color">#26396E</color>
+    <color name="error_stroke_color">#FF0000</color>
+    <color name="dialog_back">#88000000</color>
+    <color name="alert_bg">#FF0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark_gray">#242627</color>
+</resources>

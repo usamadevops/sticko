@@ -1,0 +1,501 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:2:1-137:12
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:2:1-137:12
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:2:1-137:12
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:2:1-137:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/96a962b50eebc4d9b9bc03bc53979b6b/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.databinding:viewbinding:4.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/465d783f90737306ac5dbdd240d104f2/jetified-viewbinding-4.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/2619ab921fa6ac860c8e16d5493492d3/navigation-ui-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b4830525609e4b8bb972f1d8a37dc780/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.irozon.sneaker:sneaker:2.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d257ae78f381a105c6a906d2d6ecf3b8/jetified-sneaker-2.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/aee462275766ea11fd05a9119c668fe0/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/ff1186e42ae95ec60f6e8968ac2aa4c7/navigation-fragment-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/29618970005e77edf39273e768bd91d0/jetified-lifecycle-livedata-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d87932c851efa3589ceb3436d961b1f8/jetified-lifecycle-viewmodel-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b0f8f7512c9c7fa4a401caf21e5468bf/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/51af6846157b8f63f8e3f8c7c9e47595/jetified-volley-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/2a908ff8856b0d74595453103f0c5493/jetified-android-gif-drawable-1.2.19/AndroidManifest.xml:2:1-9:12
+MERGED from [com.caverock:androidsvg-aar:1.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1692c303634d9ecb82e6496dcc2bb408/jetified-androidsvg-aar-1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/95cbcdd264a2eccacc08be754a9be679/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f860e76899abdc826c1dc563884a5050/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1aa4ae0dbd30cc6194aa5bd7498272f0/jetified-QRGenearator-1.0.3/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/0003ea579d09b78eca32790698ec4bb0/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/3d3b0751e6f78ff8c1df2664b2714ed8/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/6ba548daa8910021590b469dd1d15252/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/9bc35db89de5b085067c1324b8bfbbcf/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/52af9bb131e0a20092265842e485c08f/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/62ecce35880984b0c138ce475dc962aa/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/ad21947eec5ee398f5c283b0c4da9784/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/8689124caa1430799f02cb459f46e2da/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d643442c4ffc886106a5522b382be213/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/7dea0b4ca89f757c46a5f0508b805c20/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/c09498c672bcad79f907a63b737ebf9d/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/a4d69af603900a59fcf17f1c85331837/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/e1e987c088abb64cb98086af7cc51c67/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/af4ce0c025385f4d674c3fbc90c74bbd/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b4d6f16b2a41a056339edacecc5d0880/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/a547992bccb754fe8c5281f35b02b089/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1bb65d76bc4c53e4fd0fa77c28d107ec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/54a6463602e092e46e6a3bac5a75d6f2/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f46cbe26c0b7fb906d9a900496996d3c/navigation-runtime-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/04dc713a4b52bfe7bc8b2f78befb8bd1/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/6c634883ff5b3d7f8338525f73cafbbc/navigation-common-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d88be84dffbca90874262a60190a4c2c/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/50f1ca78fbc1677adba959cd11a28334/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f4cb9c7d93882f34a3725527850d73a1/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/2aebf516ec8aae03de1fd844e262ac59/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4a7e3a6a5b12d48699851e0cd7ae034e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4b3912fc93bd609a8bcd6b9553a912b6/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/fc0c8a66a760b49fb5235fd8b1759370/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/3614be1ff0fe680b43a404a69c35dcfe/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f557d30e428005e75b75bc091e3ee8a5/lifecycle-livedata-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/51100e062a865aaa9b8f52634709411b/jetified-lifecycle-livedata-core-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/bb99e853e72cc7ee7f8daff2a03ae9f0/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/0c170a5bf61b9b60ba30f013c401aa8b/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/871eada208e4b1d3c3f2e0d7eeb7730e/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/763fff8338f14250d307a24463e7c6bd/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/a4934bcfce5a642fea31bbad1cb3e0e2/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [pl.droidsonroids:relinker:1.3.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/6f439b9c3b6d8864cda5df2871397757/jetified-relinker-1.3.1/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:2:1-137:12
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:2:1-137:12
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:2:1-137:12
+	package
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:4:5-25
+		INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:2:1-137:12
+		INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:2:1-137:12
+		INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.NFC
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:6:5-62
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:6:22-59
+uses-feature#android.hardware.nfc
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:7:5-9:35
+	android:required
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:9:9-32
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:8:9-44
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:13:5-80
+MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:11:5-80
+MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:14:5-81
+MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:12:5-81
+MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:12:5-81
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1aa4ae0dbd30cc6194aa5bd7498272f0/jetified-QRGenearator-1.0.3/AndroidManifest.xml:11:5-81
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1aa4ae0dbd30cc6194aa5bd7498272f0/jetified-QRGenearator-1.0.3/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:15:22-65
+application
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:17:5-135:19
+MERGED from [com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:26:5-30:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b4830525609e4b8bb972f1d8a37dc780/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b4830525609e4b8bb972f1d8a37dc780/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.irozon.sneaker:sneaker:2.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d257ae78f381a105c6a906d2d6ecf3b8/jetified-sneaker-2.0.0/AndroidManifest.xml:11:5-15:19
+MERGED from [com.irozon.sneaker:sneaker:2.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d257ae78f381a105c6a906d2d6ecf3b8/jetified-sneaker-2.0.0/AndroidManifest.xml:11:5-15:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b0f8f7512c9c7fa4a401caf21e5468bf/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b0f8f7512c9c7fa4a401caf21e5468bf/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:14:5-27:19
+MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:14:5-27:19
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1aa4ae0dbd30cc6194aa5bd7498272f0/jetified-QRGenearator-1.0.3/AndroidManifest.xml:13:5-14:19
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1aa4ae0dbd30cc6194aa5bd7498272f0/jetified-QRGenearator-1.0.3/AndroidManifest.xml:13:5-14:19
+MERGED from [androidx.core:core:1.3.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/50f1ca78fbc1677adba959cd11a28334/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/50f1ca78fbc1677adba959cd11a28334/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4b3912fc93bd609a8bcd6b9553a912b6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4b3912fc93bd609a8bcd6b9553a912b6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:25:9-45
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/50f1ca78fbc1677adba959cd11a28334/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:22:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:20:9-44
+	android:roundIcon
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:24:9-72
+	tools:targetApi
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:29:9-28
+	android:largeHeap
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:23:9-33
+	android:icon
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:21:9-61
+	android:allowBackup
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:27:9-47
+	android:usesCleartextTraffic
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:28:9-44
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:18:9-28
+activity#sticko.app.SettingsScreen.TutorialScreens.TutorialsScreens
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:30:9-33:66
+	android:label
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:32:13-69
+	android:theme
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:33:13-63
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:31:13-76
+activity#sticko.app.SplashScreen
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:34:9-42:20
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:35:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:40:27-74
+activity#sticko.app.ActivationScreen.ActivationActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:43:9-53:20
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:43:19-70
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:host:ext+data:pathPrefix:/peterjohnwelcome.com:nfcapp+data:scheme:vnd.android.nfc
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:44:13-51:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:45:25-74
+category#android.intent.category.DEFAULT
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:46:27-73
+data
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:47:17-50:56
+	android:host
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:48:21-39
+	android:scheme
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:50:21-53
+	android:pathPrefix
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:49:21-70
+activity#sticko.app.Connections.Connections
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:54:9-58:66
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:57:13-49
+	android:label
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:56:13-63
+	android:theme
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:58:13-63
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:55:13-52
+activity#sticko.app.Connections.InfoMessageActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:59:9-63:66
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:62:13-49
+	android:label
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:61:13-63
+	android:theme
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:63:13-63
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:60:13-60
+activity#sticko.app.FollowsTapScreen.Follows
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:64:9-68:66
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:67:13-49
+	android:label
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:66:13-59
+	android:theme
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:68:13-63
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:65:13-53
+activity#sticko.app.OnboardingScreen.OnboardingScreen
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:69:9-71:52
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:70:13-62
+activity#sticko.app.UserHomeScreen.UserHomeScreen
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:72:9-102:20
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:74:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:73:13-58
+meta-data#sticko.app.UserHomeScreen
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:75:13-77:72
+	android:resource
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:77:17-69
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:76:17-57
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:profile.sticko.fr+data:pathPrefix:/+data:scheme:http
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:79:13-90:29
+action#android.intent.action.VIEW
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:80:17-69
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:80:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:83:17-78
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:83:27-75
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:profile.sticko.fr+data:scheme:https
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:91:13-101:29
+activity#sticko.app.HomeScreen.HomeScreenActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:103:9-105:52
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:104:13-58
+activity#sticko.app.SettingsScreen.contactor_sticko.ContactUsActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:106:9-109:67
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:108:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:109:13-65
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:107:13-78
+activity#sticko.app.VerificationsScreen.VerificationActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:110:9-112:52
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:111:13-69
+activity#sticko.app.UpdatePassword.UpdatePasswordActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:113:9-115:52
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:114:13-66
+activity#sticko.app.ForgotPassword.ForgotPasswordActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:116:9-118:52
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:118:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:117:13-66
+activity#sticko.app.Registrations.RegistrationActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:119:9-121:52
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:121:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:120:13-63
+activity#sticko.app.LoginScreen.LoginActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:122:9-124:52
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:124:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:123:13-54
+activity#sticko.app.MainActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:125:9-127:52
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:127:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:126:13-41
+activity#sticko.app.Connections.AddLinksActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:128:9-130:52
+	android:screenOrientation
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:130:13-49
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:129:13-57
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:131:9-133:59
+	android:theme
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:133:13-56
+	android:name
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml:132:13-76
+uses-sdk
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/96a962b50eebc4d9b9bc03bc53979b6b/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/96a962b50eebc4d9b9bc03bc53979b6b/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:viewbinding:4.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/465d783f90737306ac5dbdd240d104f2/jetified-viewbinding-4.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/465d783f90737306ac5dbdd240d104f2/jetified-viewbinding-4.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/2619ab921fa6ac860c8e16d5493492d3/navigation-ui-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/2619ab921fa6ac860c8e16d5493492d3/navigation-ui-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b4830525609e4b8bb972f1d8a37dc780/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b4830525609e4b8bb972f1d8a37dc780/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/53429fbc83e528985386a3702907817d/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.irozon.sneaker:sneaker:2.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d257ae78f381a105c6a906d2d6ecf3b8/jetified-sneaker-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.irozon.sneaker:sneaker:2.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d257ae78f381a105c6a906d2d6ecf3b8/jetified-sneaker-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/aee462275766ea11fd05a9119c668fe0/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/aee462275766ea11fd05a9119c668fe0/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/ff1186e42ae95ec60f6e8968ac2aa4c7/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/ff1186e42ae95ec60f6e8968ac2aa4c7/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/29618970005e77edf39273e768bd91d0/jetified-lifecycle-livedata-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/29618970005e77edf39273e768bd91d0/jetified-lifecycle-livedata-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d87932c851efa3589ceb3436d961b1f8/jetified-lifecycle-viewmodel-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d87932c851efa3589ceb3436d961b1f8/jetified-lifecycle-viewmodel-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b0f8f7512c9c7fa4a401caf21e5468bf/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b0f8f7512c9c7fa4a401caf21e5468bf/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/51af6846157b8f63f8e3f8c7c9e47595/jetified-volley-1.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/51af6846157b8f63f8e3f8c7c9e47595/jetified-volley-1.2.0/AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/2a908ff8856b0d74595453103f0c5493/jetified-android-gif-drawable-1.2.19/AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/2a908ff8856b0d74595453103f0c5493/jetified-android-gif-drawable-1.2.19/AndroidManifest.xml:5:5-7:41
+MERGED from [com.caverock:androidsvg-aar:1.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1692c303634d9ecb82e6496dcc2bb408/jetified-androidsvg-aar-1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.caverock:androidsvg-aar:1.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1692c303634d9ecb82e6496dcc2bb408/jetified-androidsvg-aar-1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/95cbcdd264a2eccacc08be754a9be679/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/95cbcdd264a2eccacc08be754a9be679/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f860e76899abdc826c1dc563884a5050/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f860e76899abdc826c1dc563884a5050/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1aa4ae0dbd30cc6194aa5bd7498272f0/jetified-QRGenearator-1.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1aa4ae0dbd30cc6194aa5bd7498272f0/jetified-QRGenearator-1.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/0003ea579d09b78eca32790698ec4bb0/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/0003ea579d09b78eca32790698ec4bb0/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/3d3b0751e6f78ff8c1df2664b2714ed8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/3d3b0751e6f78ff8c1df2664b2714ed8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/6ba548daa8910021590b469dd1d15252/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/6ba548daa8910021590b469dd1d15252/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/9bc35db89de5b085067c1324b8bfbbcf/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/9bc35db89de5b085067c1324b8bfbbcf/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/52af9bb131e0a20092265842e485c08f/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/52af9bb131e0a20092265842e485c08f/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/62ecce35880984b0c138ce475dc962aa/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/62ecce35880984b0c138ce475dc962aa/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/ad21947eec5ee398f5c283b0c4da9784/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/ad21947eec5ee398f5c283b0c4da9784/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/8689124caa1430799f02cb459f46e2da/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/8689124caa1430799f02cb459f46e2da/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d643442c4ffc886106a5522b382be213/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d643442c4ffc886106a5522b382be213/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/7dea0b4ca89f757c46a5f0508b805c20/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/7dea0b4ca89f757c46a5f0508b805c20/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/c09498c672bcad79f907a63b737ebf9d/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/c09498c672bcad79f907a63b737ebf9d/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/a4d69af603900a59fcf17f1c85331837/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/a4d69af603900a59fcf17f1c85331837/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/e1e987c088abb64cb98086af7cc51c67/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/e1e987c088abb64cb98086af7cc51c67/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/af4ce0c025385f4d674c3fbc90c74bbd/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/af4ce0c025385f4d674c3fbc90c74bbd/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b4d6f16b2a41a056339edacecc5d0880/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/b4d6f16b2a41a056339edacecc5d0880/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/a547992bccb754fe8c5281f35b02b089/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/a547992bccb754fe8c5281f35b02b089/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1bb65d76bc4c53e4fd0fa77c28d107ec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/1bb65d76bc4c53e4fd0fa77c28d107ec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/54a6463602e092e46e6a3bac5a75d6f2/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/54a6463602e092e46e6a3bac5a75d6f2/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f46cbe26c0b7fb906d9a900496996d3c/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f46cbe26c0b7fb906d9a900496996d3c/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/04dc713a4b52bfe7bc8b2f78befb8bd1/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/04dc713a4b52bfe7bc8b2f78befb8bd1/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/6c634883ff5b3d7f8338525f73cafbbc/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/6c634883ff5b3d7f8338525f73cafbbc/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d88be84dffbca90874262a60190a4c2c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/d88be84dffbca90874262a60190a4c2c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/50f1ca78fbc1677adba959cd11a28334/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/50f1ca78fbc1677adba959cd11a28334/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f4cb9c7d93882f34a3725527850d73a1/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f4cb9c7d93882f34a3725527850d73a1/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/2aebf516ec8aae03de1fd844e262ac59/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/2aebf516ec8aae03de1fd844e262ac59/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4a7e3a6a5b12d48699851e0cd7ae034e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4a7e3a6a5b12d48699851e0cd7ae034e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4b3912fc93bd609a8bcd6b9553a912b6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4b3912fc93bd609a8bcd6b9553a912b6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/fc0c8a66a760b49fb5235fd8b1759370/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/fc0c8a66a760b49fb5235fd8b1759370/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/3614be1ff0fe680b43a404a69c35dcfe/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/3614be1ff0fe680b43a404a69c35dcfe/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f557d30e428005e75b75bc091e3ee8a5/lifecycle-livedata-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/f557d30e428005e75b75bc091e3ee8a5/lifecycle-livedata-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/51100e062a865aaa9b8f52634709411b/jetified-lifecycle-livedata-core-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/51100e062a865aaa9b8f52634709411b/jetified-lifecycle-livedata-core-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/bb99e853e72cc7ee7f8daff2a03ae9f0/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/bb99e853e72cc7ee7f8daff2a03ae9f0/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/0c170a5bf61b9b60ba30f013c401aa8b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/0c170a5bf61b9b60ba30f013c401aa8b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/871eada208e4b1d3c3f2e0d7eeb7730e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/871eada208e4b1d3c3f2e0d7eeb7730e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/763fff8338f14250d307a24463e7c6bd/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/763fff8338f14250d307a24463e7c6bd/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/a4934bcfce5a642fea31bbad1cb3e0e2/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/a4934bcfce5a642fea31bbad1cb3e0e2/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [pl.droidsonroids:relinker:1.3.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/6f439b9c3b6d8864cda5df2871397757/jetified-relinker-1.3.1/AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids:relinker:1.3.1] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/6f439b9c3b6d8864cda5df2871397757/jetified-relinker-1.3.1/AndroidManifest.xml:5:5-43
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/osama.fahim/Documents/Sticko-Android/app/src/main/AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:6.2.2] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/jetified-dexter-6.2.2/AndroidManifest.xml:28:13-60
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/4aa89cfbb3c449a296bcca2acc137783/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+provider#com.iceteck.silicompressorr.provider.GenericFileProvider
+ADDED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:18:9-26:20
+	android:grantUriPermissions
+		ADDED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:20:13-83
+	android:exported
+		ADDED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:19:13-84
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:23:13-25:58
+	android:resource
+		ADDED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:25:17-55
+	android:name
+		ADDED from [com.iceteck.silicompressorr:silicompressor:2.2.4] /Users/osama.fahim/.gradle/caches/transforms-2/files-2.1/13457f603970ca9e62e9e25f9c4ea393/jetified-silicompressor-2.2.4/AndroidManifest.xml:24:17-67

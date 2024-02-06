@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StickoApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <!--       // <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>-->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/button_bg_color</item>
+        <item name="colorSecondaryVariant">@color/button_bg_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="heading_text_style" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:fontFamily">@font/d_din_condensed_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/heading_text_size</item>
+    </style>
+
+    <style name="edit_text_style" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/d_din</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingEnd">15dp</item>
+        <item name="android:paddingStart">@dimen/edt_padding_start</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+    </style>
+
+    <style name="text_style" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/d_din</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+    <style name="text_style_tutorials" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/d_din_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size_tutorials</item>
+    </style>
+    <style name="button_style">
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:fontFamily">@font/d_din</item>
+        <item name="android:gravity">center</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="Theme.StickoApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomTextAppearanceTab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@font/d_din_bold</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="theme_loader" parent="NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

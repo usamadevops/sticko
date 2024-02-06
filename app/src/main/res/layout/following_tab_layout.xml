@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_item"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="start"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="@dimen/margin_top_30"
+        android:layout_marginEnd="24sp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_dp"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:maxWidth="45dp"
+            android:maxHeight="45dp"
+            android:minWidth="45dp"
+            android:minHeight="45dp"
+            android:src="@drawable/profile_icon" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/user_dp"
+            android:fontFamily="@font/d_din_bold"
+            android:text=""
+            android:ems="10"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/white" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_unfollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/edt_background"
+            android:fontFamily="@font/d_din_condensed_bold"
+            android:gravity="center"
+            android:minWidth="110dp"
+            android:minHeight="33dp"
+            android:text="@string/unfollow"
+            android:textColor="@color/white"
+            tools:ignore="RelativeOverlap" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

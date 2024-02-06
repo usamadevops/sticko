@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main_container"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    tools:context=".Registrations.RegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@null">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/sticko_logo" />
+
+            <TextView
+                android:id="@+id/tv_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_logo"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:text="@string/creer_min_compte"
+                android:theme="@style/heading_text_style" />
+
+            <EditText
+                android:id="@+id/edt_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_heading"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:autofillHints=""
+                android:minHeight="55dp"
+                android:textColor="@color/white"
+                android:background="@drawable/edt_background"
+                android:hint="@string/utilisateur"
+                android:inputType="textEmailAddress"
+                android:theme="@style/edit_text_style" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_username"
+                android:layout_marginTop="@dimen/margin_edt_fields_top"
+                android:autofillHints=""
+                android:minHeight="55dp"
+                android:textColor="@color/white"
+                android:background="@drawable/edt_background"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:theme="@style/edit_text_style" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_new_pass"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_email"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edt_background"
+                android:paddingEnd="10dp"
+                android:minHeight="55dp"
+                app:hintEnabled="false"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/icon_tin_color"
+                tools:ignore="RtlSymmetry">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_newPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edt_background"
+                    android:fontFamily="@font/d_din"
+                    android:hint="@string/mot_de_passe"
+                    android:inputType="textPassword"
+                    android:paddingStart="@dimen/edt_padding_start"
+                    android:textSize="15sp"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="@color/hint_color" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_confirm_pass"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="55dp"
+                android:layout_below="@+id/layout_new_pass"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edt_background"
+                android:paddingEnd="10dp"
+                app:hintEnabled="false"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/icon_tin_color"
+                tools:ignore="RtlSymmetry">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_confirm_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edt_background"
+                    android:fontFamily="@font/d_din"
+                    android:hint="@string/confirmer_mot_de"
+                    android:inputType="textPassword"
+                    android:paddingStart="@dimen/edt_padding_start"
+                    android:textSize="15sp"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="@color/hint_color" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_forgot_sect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_confirm_pass">
+
+                <CheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:minHeight="14dp"
+                    android:minWidth="14dp"
+                    android:layout_marginTop="@dimen/margin_top_30"
+                    android:buttonTint="@color/button_bg_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/checkbox"
+                    android:layout_marginEnd="10dp"
+                    android:weightSum="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/d_din"
+                        android:paddingTop="2dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.72"
+                        android:maxLines="1"
+                        android:paddingBottom="2dp"
+                        android:maxLength="13"
+                        android:text="@string/j_accept_les"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:id="@+id/privacyPolicy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/d_din"
+                        android:paddingTop="2dp"
+                        android:textAlignment="textStart"
+                        android:layout_weight="0.28"
+                        android:layout_gravity="center_vertical"
+                        android:paddingBottom="2dp"
+                        android:text="@string/CGUV"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_registration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_forgot_sect"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/button_background"
+                android:text="@string/creer_min_compte"
+                android:theme="@style/button_style" />
+
+            <TextView
+                android:id="@+id/tv_have_acc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_registration"
+                android:layout_marginTop="@dimen/margin_top_30"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text="@string/tu_as_deja_un_compte"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_have_acc"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/margin_top_30"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:background="@drawable/button_background_follow"
+                android:text="@string/je_me_connecte"
+                android:textAllCaps="false"
+                android:textColor="@color/primary_color" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

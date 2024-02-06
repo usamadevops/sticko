@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "469397922267",
+    "firebase_url": "https://carhub-d2110.firebaseio.com",
+    "project_id": "carhub-d2110",
+    "storage_bucket": "carhub-d2110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469397922267:android:6d303d1327a00f72",
+        "android_client_info": {
+          "package_name": "com.example.carhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469397922267-fjllb4f8h6nhd4jeapj24m6jt95ldr40.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carhub",
+            "certificate_hash": "1f92cb2be13ce3460d33b02e1f6dd5ed5af9443c"
+          }
+        },
+        {
+          "client_id": "469397922267-nk8gnvhdnt32q1cqbf22matf9ka9smna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAulH-uA5WvU_sW5_JPVqVxfChn1KhbxYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469397922267-nk8gnvhdnt32q1cqbf22matf9ka9smna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469397922267:android:f2cf17ca3c568a8dae07fe",
+        "android_client_info": {
+          "package_name": "sticko.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469397922267-nk8gnvhdnt32q1cqbf22matf9ka9smna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAulH-uA5WvU_sW5_JPVqVxfChn1KhbxYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469397922267-nk8gnvhdnt32q1cqbf22matf9ka9smna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
